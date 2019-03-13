@@ -1,1 +1,1 @@
-# my-examples
+Collection of repositories for tests.
