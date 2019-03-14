@@ -10,6 +10,6 @@ ffmpeg and SDL2 is needed for that to work, i.e.
      apt install libsdl2-dev
      pacman -S mingw-w64-x86_64-SDL2 mingw-w64-x86_64-ffmpeg
 
-To build use `../gradlew assemble`.
+To build use `./gradlew assemble`.
 
-To run use `./build/bin/videoPlayer/main/release/executable/videoplayer.kexe small.mp4`.
+To run use `./build/bin/player/playerDebugExecutable/player.kexe simple.mp4`.
