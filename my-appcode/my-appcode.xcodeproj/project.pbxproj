@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		7BBCD019D6B6E5A70B38BADD /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+		7BBCD0FA47BAC2A8DC0F17E9 /* main.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = main.kt; sourceTree = "<group>"; };
+		7BBCD11BA6940099C556BB60 /* settings.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = settings.gradle; sourceTree = "<group>"; };
+		7BBCD5A2247A8DECC5FB342E /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		7BBCDC51306F2ADB7B40D42D /* build.gradle.kts */ = {isa = PBXFileReference; lastKnownFileType = file.kts; path = build.gradle.kts; sourceTree = "<group>"; };
+		7BBCDC98DF9A2114C7B23354 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		7BBCDE165DE855C352C8697E /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		7BBCDFBB41BDF1D9A7EB2DD6 /* my-appcode.kexe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "my-appcode.kexe"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7BBCD1101725242C11DE046D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCDFBB41BDF1D9A7EB2DD6 /* my-appcode.kexe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BBCD37C4184689F70A78EE9 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCD0FA47BAC2A8DC0F17E9 /* main.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		7BBCD42D4BA22AFB1B2DDAF9 /* my_appcodeMain */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCD37C4184689F70A78EE9 /* kotlin */,
+			);
+			path = my_appcodeMain;
+			sourceTree = "<group>";
+		};
+		7BBCD51B5972E0FA8F594D86 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCD42D4BA22AFB1B2DDAF9 /* my_appcodeMain */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7BBCD53A71130F91A549EFC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCD019D6B6E5A70B38BADD /* build.gradle */,
+				7BBCDE165DE855C352C8697E /* gradlew */,
+				7BBCDD56CB8A20116CBEE314 /* gradle */,
+				7BBCD11BA6940099C556BB60 /* settings.gradle */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BBCD5F2A38836F4A650EABD /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCDC98DF9A2114C7B23354 /* gradle-wrapper.properties */,
+				7BBCD5A2247A8DECC5FB342E /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		7BBCD9884ECFC0061F6B7CE0 /* my-appcode */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCDEE4BC3DB52BA1D4D6A6 /* Supporting Files */,
+				7BBCD51B5972E0FA8F594D86 /* src */,
+			);
+			path = "my-appcode";
+			sourceTree = "<group>";
+		};
+		7BBCDBCF57409E123CE91C2D = {
+			isa = PBXGroup;
+			children = (
+				7BBCD1101725242C11DE046D /* Products */,
+				7BBCD9884ECFC0061F6B7CE0 /* my-appcode */,
+				7BBCD53A71130F91A549EFC3 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7BBCDD56CB8A20116CBEE314 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCD5F2A38836F4A650EABD /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		7BBCDEE4BC3DB52BA1D4D6A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCDC51306F2ADB7B40D42D /* build.gradle.kts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BBCD066DD402F967D1D432F /* my-appcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBCD90F7DA3B162FA58202F /* Build configuration list for PBXNativeTarget "my-appcode" */;
+			buildPhases = (
+				7BBCD8BAA3D8D034721B7598 /* Compile Kotlin/Native */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my-appcode";
+			productName = "my-appcode";
+			productReference = 7BBCDFBB41BDF1D9A7EB2DD6 /* my-appcode.kexe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BBCD54C9C5847D3009263C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = JetBrains;
+			};
+			buildConfigurationList = 7BBCD99330B11E308006E4F5 /* Build configuration list for PBXProject "my-appcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BBCDBCF57409E123CE91C2D;
+			productRefGroup = 7BBCD1101725242C11DE046D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BBCD066DD402F967D1D432F /* my-appcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BBCD8BAA3D8D034721B7598 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -z \"$KOTLIN_NATIVE_BUILD_CAPABLE\" ]; then\ncd \"$SRCROOT/Supporting Files\"\nsh -c \". gradlew buildForXcode\"\nfi\n            ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BBCD2A032D23A5BEC7795EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME).kexe";
+			};
+			name = Debug;
+		};
+		7BBCD6695BFA5C52D97DDFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME).kexe";
+			};
+			name = Release;
+		};
+		7BBCD7DD117ED84A5F4950C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BBCDDD6428B37C2960B927A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BBCD90F7DA3B162FA58202F /* Build configuration list for PBXNativeTarget "my-appcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBCD2A032D23A5BEC7795EC /* Debug */,
+				7BBCD6695BFA5C52D97DDFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BBCD99330B11E308006E4F5 /* Build configuration list for PBXProject "my-appcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBCD7DD117ED84A5F4950C3 /* Debug */,
+				7BBCDDD6428B37C2960B927A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BBCD54C9C5847D3009263C2 /* Project object */;
+}

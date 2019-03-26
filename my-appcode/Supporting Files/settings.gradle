@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url="https://dl.bintray.com/kotlin/kotlin-eap" }
+    }
+}
+
+include(":my-appcode")
+project(":my-appcode").projectDir = file("../my-appcode")
+rootProject.name = file("..").name
