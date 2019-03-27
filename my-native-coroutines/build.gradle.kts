@@ -18,7 +18,7 @@ repositories {
 }
 
 kotlin {    
-    macosX64("mycos") {
+    macosX64("macos") {
         binaries {            
             executable("main", listOf(RELEASE, DEBUG)) {
                 compilation = compilations["main"]
