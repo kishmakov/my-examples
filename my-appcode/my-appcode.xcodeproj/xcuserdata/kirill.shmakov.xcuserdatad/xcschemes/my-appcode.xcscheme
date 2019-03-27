@@ -7,7 +7,7 @@
             buildForRunning = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7BBCD066DD402F967D1D432F"
+               BlueprintIdentifier = "7BBCDCE71661C1B7F9ABE244"
                BuildableName = "my-appcode.kexe"
                BlueprintName = "my-appcode"
                ReferencedContainer = "container:my-appcode.xcodeproj">
@@ -22,7 +22,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7BBCD066DD402F967D1D432F"
+            BlueprintIdentifier = "7BBCDCE71661C1B7F9ABE244"
             BuildableName = "my-appcode.kexe"
             BlueprintName = "my-appcode"
             ReferencedContainer = "container:my-appcode.xcodeproj">
