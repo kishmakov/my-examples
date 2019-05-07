@@ -247,7 +247,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="macos" type="GradleKonanAppRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="my-native-coroutines" TARGET_NAME="macos" RUN_TARGET_PROJECT_NAME="my-native-coroutines" RUN_TARGET_NAME="macos">
+    <configuration name="macos" type="IdeaKonanAppConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="my-native-coroutines" TARGET_NAME="macos" RUN_TARGET_PROJECT_NAME="my-native-coroutines" RUN_TARGET_NAME="macos">
       <method v="2">
         <option name="org.jetbrains.konan.gradle.execution.GradleKotlinNativeBuildBeforeRunTask" enabled="true" />
       </method>
