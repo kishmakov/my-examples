@@ -1,0 +1,12 @@
+.gradle/
+build/
+.idea/libraries/Gradle*.xml
+.idea/libraries/Maven*.xml
+.idea/artifacts/PILL_*.xml
+.idea/runConfigurations/JPS_*.xml
+.idea/runConfigurations/PILL_*.xml
+.idea/libraries
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/.name
+local.properties

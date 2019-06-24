@@ -1,30 +1,46 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath(kotlin("gradle-plugin", version = "1.3.21"))
-    }
-}
-
 plugins {
-    kotlin("multiplatform") version "1.3.21"
+    kotlin("multiplatform") version "1.3.40"
 }
-
 
 repositories {
-    mavenCentral()    
+    mavenCentral()
 }
 
-kotlin {
-    macosX64("macos") {
+kotlin {    
+    macosX64("m1") {
         binaries {
-            executable("main", listOf(RELEASE, DEBUG)) {
-                compilation = compilations["main"]
-                baseName = "mpp-basic"
-                entryPoint = "demo.main"
-                println("Executable path: ${outputFile.absolutePath}")
+            executable("e1") {
+                entryPoint = "sample.helloworld.main1"
+            }
+
+            executable("e2") {
+                entryPoint = "sample.helloworld.main2"
+            }
+        }
+    }
+
+    linuxX64("l1") {
+        binaries {
+            executable("e1") {
+                entryPoint = "sample.helloworld.main1"
+            }
+
+            executable("e2") {
+                entryPoint = "sample.helloworld.main2"
+            }
+        }
+    }
+
+    linuxX64("l2") {
+        binaries {
+            executable("e1") {
+                entryPoint = "sample.helloworld.main1"
+            }
+
+            executable("e2") {
+                entryPoint = "sample.helloworld.main2"
             }
         }
     }
 }
+
