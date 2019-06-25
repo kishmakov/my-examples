@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="IdeaKonanBuildProfile:Release" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1MoiqvKasrQQh2w3yNwhHwGYodl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PsiViewer.ProjectComponent">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="true" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin/Native Application.l2.e2">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="linux_x64" TARGET_NAME="l1" BINARY_NAME="e1" />
+      <target PROFILE="Debug" />
+      <target PROFILE="Release" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="linux_x64" TARGET_NAME="l1" BINARY_NAME="e2" />
+      <target PROFILE="Debug" />
+      <target PROFILE="Release" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="linux_x64" TARGET_NAME="l1" BINARY_NAME="test" />
+      <target PROFILE="Debug" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="linux_x64" TARGET_NAME="l2" BINARY_NAME="e1" />
+      <target PROFILE="Debug" />
+      <target PROFILE="Release" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="linux_x64" TARGET_NAME="l2" BINARY_NAME="e2" />
+      <target PROFILE="Debug" />
+      <target PROFILE="Release" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="linux_x64" TARGET_NAME="l2" BINARY_NAME="test" />
+      <target PROFILE="Debug" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="macos_x64" TARGET_NAME="m1" BINARY_NAME="e1" />
+      <target PROFILE="Debug" />
+      <target PROFILE="Release" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="macos_x64" TARGET_NAME="m1" BINARY_NAME="e2" />
+      <target PROFILE="Debug" />
+      <target PROFILE="Release" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT="my-mpp-basic">
+      <executable TARGET_TYPE="macos_x64" TARGET_NAME="m1" BINARY_NAME="test" />
+      <target PROFILE="Debug" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="" />
+      <created>1558529354263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558529354263</updated>
+      <workItem from="1558529355556" duration="162000" />
+      <workItem from="1558529564559" duration="77000" />
+      <workItem from="1558530150771" duration="246000" />
+      <workItem from="1558530898798" duration="419000" />
+      <workItem from="1558602249547" duration="72000" />
+      <workItem from="1559028858502" duration="131000" />
+      <workItem from="1560848131089" duration="2155000" />
+      <workItem from="1560853513494" duration="61000" />
+      <workItem from="1560853581142" duration="27000" />
+      <workItem from="1560857551483" duration="91000" />
+      <workItem from="1560857997381" duration="28000" />
+      <workItem from="1560858747640" duration="54000" />
+      <workItem from="1560862357107" duration="628000" />
+      <workItem from="1560866394858" duration="77000" />
+      <workItem from="1560866476123" duration="155000" />
+      <workItem from="1560868057894" duration="228000" />
+      <workItem from="1561026559846" duration="1415000" />
+      <workItem from="1561031857011" duration="815000" />
+      <workItem from="1561034200384" duration="525000" />
+      <workItem from="1561036399885" duration="566000" />
+      <workItem from="1561142222464" duration="95000" />
+      <workItem from="1561208691008" duration="69000" />
+      <workItem from="1561400026460" duration="1726000" />
+      <workItem from="1561401874995" duration="217000" />
+      <workItem from="1561402176216" duration="113000" />
+      <workItem from="1561404417392" duration="894000" />
+      <workItem from="1561406845167" duration="50000" />
+      <workItem from="1561407500418" duration="24000" />
+      <workItem from="1561408182250" duration="113000" />
+      <workItem from="1561408801838" duration="72000" />
+      <workItem from="1561446684098" duration="340000" />
+      <workItem from="1561449160917" duration="136000" />
+      <workItem from="1561450572721" duration="32000" />
+      <workItem from="1561450691937" duration="141000" />
+      <workItem from="1561452001456" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
