@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
-  </component>
-  <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-    </configurations>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -26,7 +18,7 @@
       <executable />
     </execution>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e2:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e2:Release" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,7 +29,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -46,6 +43,43 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KonanWorkspace">
+    <executables>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
+        <target DEBUG="false" FILE="build/bin/l1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
+        <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/l1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/l2/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
+        <target DEBUG="false" FILE="build/bin/l2/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/l2/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
+        <target DEBUG="false" FILE="build/bin/l2/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/l2/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL2" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/m1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
+        <target DEBUG="false" FILE="build/bin/m1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/m1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
+        <target DEBUG="false" FILE="build/bin/m1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/m1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestM1" />
+      </executable>
+    </executables>
   </component>
   <component name="ProjectId" id="1MoiqvKasrQQh2w3yNwhHwGYodl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,81 +118,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
-        <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
-      </executable>
+  <component name="RunManager" selected="Kotlin/Native Application.l1.e2">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
-        <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
-      </executable>
+    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
-        <target DEBUG="true" FILE="build/bin/l1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL1" />
-      </executable>
+    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
-        <target DEBUG="true" FILE="build/bin/l2/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
-        <target DEBUG="false" FILE="build/bin/l2/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
-      </executable>
+    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/l2/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
-        <target DEBUG="false" FILE="build/bin/l2/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
-      </executable>
+    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
-        <target DEBUG="true" FILE="build/bin/l2/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL2" />
-      </executable>
+    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
-        <target DEBUG="true" FILE="build/bin/m1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
-        <target DEBUG="false" FILE="build/bin/m1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
-      </executable>
+    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/m1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
-        <target DEBUG="false" FILE="build/bin/m1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
-      </executable>
+    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
-        <target DEBUG="true" FILE="build/bin/m1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestM1" />
-      </executable>
+    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
@@ -230,6 +231,20 @@
       <workItem from="1561741891532" duration="70000" />
       <workItem from="1561743999852" duration="321000" />
       <workItem from="1561744323546" duration="908000" />
+      <workItem from="1561747356029" duration="36000" />
+      <workItem from="1561747573238" duration="73000" />
+      <workItem from="1561747773107" duration="15000" />
+      <workItem from="1561748326146" duration="10000" />
+      <workItem from="1561749907410" duration="32000" />
+      <workItem from="1561792602301" duration="46000" />
+      <workItem from="1561792772260" duration="16000" />
+      <workItem from="1561793793899" duration="19000" />
+      <workItem from="1561794728847" duration="129000" />
+      <workItem from="1561794878733" duration="113000" />
+      <workItem from="1561795015131" duration="5000" />
+      <workItem from="1561795106656" duration="10000" />
+      <workItem from="1561795162231" duration="21000" />
+      <workItem from="1561795795246" duration="85000" />
     </task>
     <servers />
   </component>
