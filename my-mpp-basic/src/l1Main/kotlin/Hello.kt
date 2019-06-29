@@ -10,10 +10,16 @@ fun hello(n: Int): String =
     }
 
 
-fun main1() {
+fun main1(args: Array<String>) {
     println(hello(1))
+    for (arg in args) {
+        println(arg)
+    }
 }
 
-fun main2() {
+fun main2(args: Array<String>) {
     println(hello(2))
+    for (arg in args) {
+        println(arg)
+    }
 }

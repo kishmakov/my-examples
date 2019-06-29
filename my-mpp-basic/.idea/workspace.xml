@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +19,7 @@
       <executable />
     </execution>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e2:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e1:Release" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,12 +30,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -43,6 +39,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="my-mpp-basic.commonMain/invalid/Kotlin" />
+      <facet id="my-mpp-basic.commonTest/invalid/Kotlin" />
+      <facet id="my-mpp-basic.l1Main/invalid/Kotlin" />
+      <facet id="my-mpp-basic.l1Test/invalid/Kotlin" />
+      <facet id="my-mpp-basic.l2Main/invalid/Kotlin" />
+      <facet id="my-mpp-basic.l2Test/invalid/Kotlin" />
+      <facet id="my-mpp-basic.m1Main/invalid/Kotlin" />
+      <facet id="my-mpp-basic.m1Test/invalid/Kotlin" />
+    </ignored-facets>
   </component>
   <component name="KonanWorkspace">
     <executables>
@@ -118,8 +126,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.l1.e2">
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
+  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="a aba abacaba" WORKING_DIR="$PROJECT_DIR$/../..">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
@@ -245,6 +253,19 @@
       <workItem from="1561795106656" duration="10000" />
       <workItem from="1561795162231" duration="21000" />
       <workItem from="1561795795246" duration="85000" />
+      <workItem from="1561795937603" duration="620000" />
+      <workItem from="1561796657654" duration="30000" />
+      <workItem from="1561801781654" duration="36000" />
+      <workItem from="1561801929910" duration="56000" />
+      <workItem from="1561802677538" duration="32000" />
+      <workItem from="1561802747836" duration="19000" />
+      <workItem from="1561803641138" duration="163000" />
+      <workItem from="1561805516242" duration="47000" />
+      <workItem from="1561806786379" duration="270000" />
+      <workItem from="1561807547973" duration="237000" />
+      <workItem from="1561809809536" duration="176000" />
+      <workItem from="1561810349325" duration="41000" />
+      <workItem from="1561810974042" duration="98000" />
     </task>
     <servers />
   </component>
