@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +126,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="a aba abacaba" WORKING_DIR="$PROJECT_DIR$/../..">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="&quot;a b&quot; &quot;c d&quot;" WORKING_DIR="$PROJECT_DIR$/build">
+      <envs>
+        <env name="myvar" value="239" />
+      </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
@@ -266,6 +268,11 @@
       <workItem from="1561809809536" duration="176000" />
       <workItem from="1561810349325" duration="41000" />
       <workItem from="1561810974042" duration="98000" />
+      <workItem from="1561811645680" duration="1126000" />
+      <workItem from="1561912841227" duration="1537000" />
+      <workItem from="1561920225223" duration="238000" />
+      <workItem from="1561925005492" duration="317000" />
+      <workItem from="1561925509954" duration="43000" />
     </task>
     <servers />
   </component>
