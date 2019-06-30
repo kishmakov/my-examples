@@ -1,5 +1,8 @@
 package sample.helloworld
 
+import kotlinx.cinterop.*
+import platform.posix.*
+
 fun hello(n: Int): String =
     buildString {
 	    append("Hello, Kotlin/Native @")
@@ -12,9 +15,13 @@ fun hello(n: Int): String =
 
 fun main1(args: Array<String>) {
     println(hello(1))
+    val file = fopen("aba.txt", "w")
     for (arg in args) {
-        println(arg)
+        fputs(">>> $arg\n", file)
     }
+    fclose(file)
+    val path = getenv("myvar")?.toKString()
+    println("myvar is $path")
 }
 
 fun main2(args: Array<String>) {
