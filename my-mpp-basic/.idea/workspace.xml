@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -10,8 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +49,7 @@
       <executable />
     </execution>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e1:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:m1.e1:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -38,12 +60,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -52,6 +69,51 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="my-mpp-basic.commonMain/invalid/Kotlin" />
+      <facet id="my-mpp-basic.commonTest/invalid/Kotlin" />
+      <facet id="my-mpp-basic.m1Main/invalid/Kotlin" />
+      <facet id="my-mpp-basic.m1Test/invalid/Kotlin" />
+    </ignored-facets>
+  </component>
+  <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3">
+    <executables>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
+        <target DEBUG="false" FILE="build/bin/l1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
+        <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/l1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/l2/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
+        <target DEBUG="false" FILE="build/bin/l2/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/l2/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
+        <target DEBUG="false" FILE="build/bin/l2/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/l2/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL2" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/m1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
+        <target DEBUG="false" FILE="build/bin/m1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/m1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
+        <target DEBUG="false" FILE="build/bin/m1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/m1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestM1" />
+      </executable>
+    </executables>
   </component>
   <component name="ProjectId" id="1MoiqvKasrQQh2w3yNwhHwGYodl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,6 +130,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -90,76 +155,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" />
-      <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
-      <target DEBUG="false" FILE="build/bin/l1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL1" />
+  <component name="RunManager" selected="Kotlin/Native Application.m1.e1">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2" />
-      <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
-      <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
+    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test" />
-      <target DEBUG="true" FILE="build/bin/l1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL1" />
+    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1" />
-      <target DEBUG="true" FILE="build/bin/l2/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
-      <target DEBUG="false" FILE="build/bin/l2/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
+    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2" />
-      <target DEBUG="true" FILE="build/bin/l2/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
-      <target DEBUG="false" FILE="build/bin/l2/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
+    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test" />
-      <target DEBUG="true" FILE="build/bin/l2/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL2" />
+    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1" />
-      <target DEBUG="true" FILE="build/bin/m1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
-      <target DEBUG="false" FILE="build/bin/m1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
+    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2" />
-      <target DEBUG="true" FILE="build/bin/m1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
-      <target DEBUG="false" FILE="build/bin/m1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
+    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" PROJECT_PATH="">
-      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test" />
-      <target DEBUG="true" FILE="build/bin/m1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestM1" />
+    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Kotlin/Native Application.l1.e1" />
+      <item itemvalue="Kotlin/Native Application.l1.e2" />
+      <item itemvalue="Kotlin/Native Application.l1.test" />
+      <item itemvalue="Kotlin/Native Application.l2.e1" />
+      <item itemvalue="Kotlin/Native Application.l2.e2" />
+      <item itemvalue="Kotlin/Native Application.l2.test" />
+      <item itemvalue="Kotlin/Native Application.m1.e1" />
+      <item itemvalue="Kotlin/Native Application.m1.e2" />
+      <item itemvalue="Kotlin/Native Application.m1.test" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -173,37 +225,35 @@
       <updated>1558529354263</updated>
       <workItem from="1558529355556" duration="162000" />
       <workItem from="1558529564559" duration="77000" />
-      <workItem from="1558530150771" duration="246000" />
-      <workItem from="1558530898798" duration="419000" />
-      <workItem from="1558602249547" duration="72000" />
-      <workItem from="1561408182250" duration="113000" />
-      <workItem from="1561408801838" duration="72000" />
-      <workItem from="1561446684098" duration="340000" />
-      <workItem from="1561449160917" duration="136000" />
-      <workItem from="1561450572721" duration="32000" />
-      <workItem from="1561450691937" duration="141000" />
-      <workItem from="1561452001456" duration="41000" />
-      <workItem from="1561452503239" duration="22000" />
-      <workItem from="1561461977479" duration="16000" />
-      <workItem from="1561462618328" duration="13000" />
-      <workItem from="1561462864703" duration="116000" />
-      <workItem from="1561467903002" duration="176000" />
-      <workItem from="1561468607637" duration="11000" />
-      <workItem from="1561468702389" duration="177000" />
-      <workItem from="1561469283663" duration="212000" />
-      <workItem from="1561469956077" duration="263000" />
-      <workItem from="1561471945242" duration="358000" />
       <workItem from="1561472980377" duration="586000" />
-      <workItem from="1561529318026" duration="210000" />
-      <workItem from="1561529790788" duration="708000" />
-      <workItem from="1561538938507" duration="105000" />
-      <workItem from="1561539534813" duration="9000" />
-      <workItem from="1561614686480" duration="336000" />
-      <workItem from="1561615133666" duration="25000" />
-      <workItem from="1561616684529" duration="172000" />
-      <workItem from="1561617922570" duration="350000" />
-      <workItem from="1561618733049" duration="116000" />
-      <workItem from="1561620183090" duration="84000" />
+      <workItem from="1561551103752" duration="12000" />
+      <workItem from="1561552879050" duration="1000" />
+      <workItem from="1561554782048" duration="394000" />
+      <workItem from="1561555532934" duration="25000" />
+      <workItem from="1561556378654" duration="31000" />
+      <workItem from="1561556439562" duration="18000" />
+      <workItem from="1561557746685" duration="37000" />
+      <workItem from="1561557960692" duration="198000" />
+      <workItem from="1561559360901" duration="806000" />
+      <workItem from="1561560171647" duration="791000" />
+      <workItem from="1561561853373" duration="367000" />
+      <workItem from="1561563183113" duration="308000" />
+      <workItem from="1561563520454" duration="423000" />
+      <workItem from="1561563984045" duration="112000" />
+      <workItem from="1561564112956" duration="9000" />
+      <workItem from="1561564936117" duration="232000" />
+      <workItem from="1561633148750" duration="676000" />
+      <workItem from="1561634087257" duration="139000" />
+      <workItem from="1561634315235" duration="666000" />
+      <workItem from="1561635585209" duration="208000" />
+      <workItem from="1561636256085" duration="993000" />
+      <workItem from="1561641218373" duration="317000" />
+      <workItem from="1561641666622" duration="3834000" />
+      <workItem from="1561646816743" duration="1784000" />
+      <workItem from="1561718056552" duration="915000" />
+      <workItem from="1561724440449" duration="819000" />
+      <workItem from="1562051684054" duration="126000" />
+      <workItem from="1562051834756" duration="31000" />
     </task>
     <servers />
   </component>
@@ -227,6 +277,17 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

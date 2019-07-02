@@ -1,6 +1,8 @@
 package sample.helloworld
 
-fun hello(name: String): String = "Hello, $name!"
+fun hello(name: String): String {
+    return "Hello, $name!"
+}
 
 fun main1() {
     println(hello("Kotlin/Native"))
