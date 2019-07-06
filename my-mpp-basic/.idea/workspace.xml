@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +50,7 @@
       <executable />
     </execution>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e1:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.test:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -43,15 +75,11 @@
     <ignored-facets>
       <facet id="my-mpp-basic.commonMain/invalid/Kotlin" />
       <facet id="my-mpp-basic.commonTest/invalid/Kotlin" />
-      <facet id="my-mpp-basic.l1Main/invalid/Kotlin" />
-      <facet id="my-mpp-basic.l1Test/invalid/Kotlin" />
-      <facet id="my-mpp-basic.l2Main/invalid/Kotlin" />
-      <facet id="my-mpp-basic.l2Test/invalid/Kotlin" />
       <facet id="my-mpp-basic.m1Main/invalid/Kotlin" />
       <facet id="my-mpp-basic.m1Test/invalid/Kotlin" />
     </ignored-facets>
   </component>
-  <component name="KonanWorkspace">
+  <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-linux-1.3">
     <executables>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
         <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
@@ -103,6 +131,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -125,10 +156,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="&quot;a b&quot; &quot;c d&quot;" WORKING_DIR="$PROJECT_DIR$/build">
+  <component name="RunManager" selected="Kotlin/Native Application.l1.test">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Vasya" WORKING_DIR="">
       <envs>
-        <env name="myvar" value="239" />
+        <env name="myvar" value="3" />
       </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
@@ -198,81 +229,29 @@
       <updated>1558529354263</updated>
       <workItem from="1558529355556" duration="162000" />
       <workItem from="1558529564559" duration="77000" />
-      <workItem from="1558530150771" duration="246000" />
-      <workItem from="1558530898798" duration="419000" />
-      <workItem from="1558602249547" duration="72000" />
-      <workItem from="1561408182250" duration="113000" />
-      <workItem from="1561408801838" duration="72000" />
-      <workItem from="1561446684098" duration="340000" />
-      <workItem from="1561449160917" duration="136000" />
-      <workItem from="1561450572721" duration="32000" />
-      <workItem from="1561450691937" duration="141000" />
-      <workItem from="1561452001456" duration="41000" />
-      <workItem from="1561452503239" duration="22000" />
-      <workItem from="1561461977479" duration="16000" />
-      <workItem from="1561462618328" duration="13000" />
-      <workItem from="1561462864703" duration="116000" />
-      <workItem from="1561467903002" duration="176000" />
-      <workItem from="1561468607637" duration="11000" />
-      <workItem from="1561468702389" duration="177000" />
-      <workItem from="1561469283663" duration="212000" />
-      <workItem from="1561469956077" duration="263000" />
-      <workItem from="1561471945242" duration="358000" />
       <workItem from="1561472980377" duration="586000" />
-      <workItem from="1561529318026" duration="210000" />
-      <workItem from="1561529790788" duration="708000" />
-      <workItem from="1561538938507" duration="105000" />
-      <workItem from="1561539534813" duration="9000" />
-      <workItem from="1561614686480" duration="336000" />
-      <workItem from="1561615133666" duration="25000" />
-      <workItem from="1561616684529" duration="172000" />
-      <workItem from="1561617922570" duration="350000" />
-      <workItem from="1561618733049" duration="116000" />
-      <workItem from="1561620183090" duration="84000" />
-      <workItem from="1561620690862" duration="84000" />
-      <workItem from="1561622006765" duration="1085000" />
-      <workItem from="1561663004069" duration="218000" />
-      <workItem from="1561702991865" duration="365000" />
-      <workItem from="1561703588719" duration="260000" />
-      <workItem from="1561705906684" duration="18000" />
-      <workItem from="1561706873714" duration="70000" />
-      <workItem from="1561708663184" duration="636000" />
-      <workItem from="1561710635258" duration="859000" />
-      <workItem from="1561741891532" duration="70000" />
-      <workItem from="1561743999852" duration="321000" />
-      <workItem from="1561744323546" duration="908000" />
-      <workItem from="1561747356029" duration="36000" />
-      <workItem from="1561747573238" duration="73000" />
-      <workItem from="1561747773107" duration="15000" />
-      <workItem from="1561748326146" duration="10000" />
-      <workItem from="1561749907410" duration="32000" />
-      <workItem from="1561792602301" duration="46000" />
-      <workItem from="1561792772260" duration="16000" />
-      <workItem from="1561793793899" duration="19000" />
-      <workItem from="1561794728847" duration="129000" />
-      <workItem from="1561794878733" duration="113000" />
-      <workItem from="1561795015131" duration="5000" />
-      <workItem from="1561795106656" duration="10000" />
-      <workItem from="1561795162231" duration="21000" />
-      <workItem from="1561795795246" duration="85000" />
-      <workItem from="1561795937603" duration="620000" />
-      <workItem from="1561796657654" duration="30000" />
-      <workItem from="1561801781654" duration="36000" />
-      <workItem from="1561801929910" duration="56000" />
-      <workItem from="1561802677538" duration="32000" />
-      <workItem from="1561802747836" duration="19000" />
-      <workItem from="1561803641138" duration="163000" />
-      <workItem from="1561805516242" duration="47000" />
-      <workItem from="1561806786379" duration="270000" />
-      <workItem from="1561807547973" duration="237000" />
-      <workItem from="1561809809536" duration="176000" />
-      <workItem from="1561810349325" duration="41000" />
-      <workItem from="1561810974042" duration="98000" />
-      <workItem from="1561811645680" duration="1126000" />
-      <workItem from="1561912841227" duration="1537000" />
-      <workItem from="1561920225223" duration="238000" />
-      <workItem from="1561925005492" duration="317000" />
-      <workItem from="1561925509954" duration="43000" />
+      <workItem from="1561634315235" duration="666000" />
+      <workItem from="1561635585209" duration="208000" />
+      <workItem from="1561636256085" duration="993000" />
+      <workItem from="1561641218373" duration="317000" />
+      <workItem from="1561641666622" duration="3834000" />
+      <workItem from="1561646816743" duration="1784000" />
+      <workItem from="1561718056552" duration="915000" />
+      <workItem from="1561724440449" duration="819000" />
+      <workItem from="1562051684054" duration="126000" />
+      <workItem from="1562051834756" duration="31000" />
+      <workItem from="1562052102156" duration="492000" />
+      <workItem from="1562101983419" duration="114000" />
+      <workItem from="1562102159505" duration="544000" />
+      <workItem from="1562103699662" duration="624000" />
+      <workItem from="1562104348083" duration="762000" />
+      <workItem from="1562224168414" duration="649000" />
+      <workItem from="1562225006290" duration="267000" />
+      <workItem from="1562225409391" duration="3000" />
+      <workItem from="1562225524493" duration="123000" />
+      <workItem from="1562225675575" duration="43000" />
+      <workItem from="1562225870580" duration="624000" />
+      <workItem from="1562402945762" duration="267000" />
     </task>
     <servers />
   </component>
@@ -296,6 +275,27 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
