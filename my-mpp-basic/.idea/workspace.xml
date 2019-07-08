@@ -32,6 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/w1Main/kotlin/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w1Test/kotlin/HelloTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" afterDir="false" />
@@ -61,7 +63,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -82,37 +89,48 @@
   <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-linux-1.3">
     <executables>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
-        <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
-        <target DEBUG="false" FILE="build/bin/l1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL1" />
+        <target DEBUG="true" FILE="build\bin\l1\e1DebugExecutable\e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
+        <target DEBUG="false" FILE="build\bin\l1\e1ReleaseExecutable\e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL1" />
       </executable>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
-        <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
+        <target DEBUG="true" FILE="build\bin\l1\e2DebugExecutable\e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
+        <target DEBUG="false" FILE="build\bin\l1\e2ReleaseExecutable\e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
       </executable>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
-        <target DEBUG="true" FILE="build/bin/l1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL1" />
+        <target DEBUG="true" FILE="build\bin\l1\debugTest\test.kexe" GRADLE_TASK=":linkDebugTestL1" />
       </executable>
       <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
-        <target DEBUG="true" FILE="build/bin/l2/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
-        <target DEBUG="false" FILE="build/bin/l2/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
+        <target DEBUG="true" FILE="build\bin\l2\e1DebugExecutable\e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
+        <target DEBUG="false" FILE="build\bin\l2\e1ReleaseExecutable\e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
       </executable>
       <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/l2/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
-        <target DEBUG="false" FILE="build/bin/l2/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
+        <target DEBUG="true" FILE="build\bin\l2\e2DebugExecutable\e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
+        <target DEBUG="false" FILE="build\bin\l2\e2ReleaseExecutable\e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
       </executable>
       <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
-        <target DEBUG="true" FILE="build/bin/l2/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL2" />
+        <target DEBUG="true" FILE="build\bin\l2\debugTest\test.kexe" GRADLE_TASK=":linkDebugTestL2" />
       </executable>
       <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
-        <target DEBUG="true" FILE="build/bin/m1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
-        <target DEBUG="false" FILE="build/bin/m1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
+        <target DEBUG="true" FILE="build\bin\m1\e1DebugExecutable\e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
+        <target DEBUG="false" FILE="build\bin\m1\e1ReleaseExecutable\e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
       </executable>
       <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
-        <target DEBUG="true" FILE="build/bin/m1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
-        <target DEBUG="false" FILE="build/bin/m1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
+        <target DEBUG="true" FILE="build\bin\m1\e2DebugExecutable\e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
+        <target DEBUG="false" FILE="build\bin\m1\e2ReleaseExecutable\e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
       </executable>
       <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
-        <target DEBUG="true" FILE="build/bin/m1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestM1" />
+        <target DEBUG="true" FILE="build\bin\m1\debugTest\test.kexe" GRADLE_TASK=":linkDebugTestM1" />
+      </executable>
+      <executable TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e1">
+        <target DEBUG="true" FILE="build\bin\w1\e1DebugExecutable\e1.exe" GRADLE_TASK=":linkE1DebugExecutableW1" />
+        <target DEBUG="false" FILE="build\bin\w1\e1ReleaseExecutable\e1.exe" GRADLE_TASK=":linkE1ReleaseExecutableW1" />
+      </executable>
+      <executable TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e2">
+        <target DEBUG="true" FILE="build\bin\w1\e2DebugExecutable\e2.exe" GRADLE_TASK=":linkE2DebugExecutableW1" />
+        <target DEBUG="false" FILE="build\bin\w1\e2ReleaseExecutable\e2.exe" GRADLE_TASK=":linkE2ReleaseExecutableW1" />
+      </executable>
+      <executable TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="test">
+        <target DEBUG="true" FILE="build\bin\w1\debugTest\test.exe" GRADLE_TASK=":linkDebugTestW1" />
       </executable>
     </executables>
   </component>
@@ -134,7 +152,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -205,6 +223,21 @@
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="w1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e1" PROGRAM_PARAMS="Vasya Petya" WORKING_DIR="">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="w1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e2">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="w1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="test">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin/Native Application.l1.e1" />
       <item itemvalue="Kotlin/Native Application.l1.e2" />
@@ -215,6 +248,9 @@
       <item itemvalue="Kotlin/Native Application.m1.e1" />
       <item itemvalue="Kotlin/Native Application.m1.e2" />
       <item itemvalue="Kotlin/Native Application.m1.test" />
+      <item itemvalue="Kotlin/Native Application.w1.e1" />
+      <item itemvalue="Kotlin/Native Application.w1.e2" />
+      <item itemvalue="Kotlin/Native Application.w1.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -241,17 +277,6 @@
       <workItem from="1562051684054" duration="126000" />
       <workItem from="1562051834756" duration="31000" />
       <workItem from="1562052102156" duration="492000" />
-      <workItem from="1562101983419" duration="114000" />
-      <workItem from="1562102159505" duration="544000" />
-      <workItem from="1562103699662" duration="624000" />
-      <workItem from="1562104348083" duration="762000" />
-      <workItem from="1562224168414" duration="649000" />
-      <workItem from="1562225006290" duration="267000" />
-      <workItem from="1562225409391" duration="3000" />
-      <workItem from="1562225524493" duration="123000" />
-      <workItem from="1562225675575" duration="43000" />
-      <workItem from="1562225870580" duration="624000" />
-      <workItem from="1562402945762" duration="267000" />
     </task>
     <servers />
   </component>
@@ -280,8 +305,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt</url>
-          <line>5</line>
+          <url>file://$PROJECT_DIR$/src/w1Main/kotlin/Hello.kt</url>
+          <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

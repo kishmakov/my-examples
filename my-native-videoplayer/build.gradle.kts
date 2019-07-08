@@ -18,7 +18,31 @@ repositories {
 }
 
 kotlin {
-    macosX64("player") {
+    macosX64("playerM") {
+        compilations.getByName("main") {
+            val ffmpeg by cinterops.creating {
+                defFile(project.file("cinterop/ffmpeg.def"))
+                includeDirs.headerFilterOnly("/opt/local/include", "/usr/local/include")
+            }
+
+            val sdl by cinterops.creating {
+                defFile(project.file("cinterop/sdl.def"))
+                includeDirs("/opt/local/include/SDL2", "/usr/local/include/SDL2")
+            }
+        }
+
+        binaries {
+            executable("player", listOf(RELEASE, DEBUG)) {
+                compilation = compilations["main"]
+                linkerOpts = mutableListOf("-L/opt/local/lib", "-L/usr/local/lib")
+                baseName = "player"
+                entryPoint = "sample.videoplayer.main"
+                println("Executable path: ${outputFile.absolutePath}")
+            }
+        }
+    }
+
+    mingwX64("playerW") {
         compilations.getByName("main") {
             val ffmpeg by cinterops.creating {
                 defFile(project.file("cinterop/ffmpeg.def"))
@@ -42,3 +66,5 @@ kotlin {
         }
     }
 }
+
+

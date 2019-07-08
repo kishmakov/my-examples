@@ -6,8 +6,20 @@ repositories {
     mavenCentral()
 }
 
-kotlin {    
+kotlin {
     macosX64("m1") {
+        binaries {
+            executable("e1") {
+                entryPoint = "sample.helloworld.main1"
+            }
+
+            executable("e2") {
+                entryPoint = "sample.helloworld.main2"
+            }
+        }
+    }
+
+    mingwX64("w1") {
         binaries {
             executable("e1") {
                 entryPoint = "sample.helloworld.main1"

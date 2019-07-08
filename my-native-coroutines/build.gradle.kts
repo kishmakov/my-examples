@@ -17,9 +17,9 @@ repositories {
     maven("https://dl.bintray.com/kotlin/kotlin-dev")    
 }
 
-kotlin {    
-    macosX64("macos") {
-        binaries {            
+kotlin {
+    mingwX64("win") {
+        binaries {
             executable("main", listOf(RELEASE, DEBUG)) {
                 compilation = compilations["main"]
                 baseName = "native-coroutines"
@@ -30,7 +30,7 @@ kotlin {
     }
 
     sourceSets["commonMain"].dependencies {
-        implementation("org.jetbrains.kotlinx:atomicfu-macos64:0.12.2-eap13")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native_debug_macos_x64:1.1.1-eap13")
+        implementation("org.jetbrains.kotlinx:atomicfu-native:0.12.8")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-native:1.2.1")
     }
 }
