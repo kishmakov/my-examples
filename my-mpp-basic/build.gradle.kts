@@ -11,6 +11,7 @@ kotlin {
         binaries {
             executable("e1") {
                 entryPoint = "sample.helloworld.main1"
+                runTask?.environment("aba" to "abacaba")
             }
 
             executable("e2") {
