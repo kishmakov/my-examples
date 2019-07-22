@@ -6,6 +6,6 @@ import kotlin.test.assertTrue
 class SampleTests {
     @Test
     fun testHello() {
-        assertTrue("John" in hello("John"))
+        assertTrue("up" in question("What's up"))
     }
 }

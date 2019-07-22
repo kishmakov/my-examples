@@ -3,19 +3,28 @@ package sample.helloworld
 import kotlinx.cinterop.toKString
 import platform.posix.getenv
 
-fun hello(name: String): String {
-    return "Hello, $name!"
+fun question(subject: String, names: Array<String> = emptyArray()): String {
+    return buildString {
+        append("$subject?")
+        for (name in names)
+            append(" $name?")
+    }
+}
+
+fun currentLocation(): String {
+    val nowhere = "nowhere"
+    val lon = getenv("Latitude")?.toKString() ?: return nowhere
+    val lat = getenv("Longitude")?.toKString() ?: return nowhere
+    return "($lon, $lat)"
 }
 
 fun main1(args: Array<String>) {
-    println(hello("Kotlin/Native"))
-    for (arg in args)
-        println(hello(arg))
+    println(question("Will no one stay awake for me", args))
+    println("Location: " + currentLocation())
 
-    val aba = getenv("aba")?.toKString()
-    println("aba is $aba")
 }
 
-fun main2() {
-    println(hello("James Smith"))
+fun main2(args: Array<String>) {
+    println(question("Will none of you wait for me", args))
+    println("Location: " + currentLocation())
 }

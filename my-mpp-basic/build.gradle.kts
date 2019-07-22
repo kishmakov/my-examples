@@ -11,11 +11,20 @@ kotlin {
         binaries {
             executable("e1") {
                 entryPoint = "sample.helloworld.main1"
-                runTask?.environment("aba" to "abacaba")
+                runTask?.environment(
+                        "Longitude" to "35.240197",
+                        "Latitude" to "31.779402"
+                )
+                runTask?.args("Peter", "John", "James")
             }
 
             executable("e2") {
                 entryPoint = "sample.helloworld.main2"
+                runTask?.environment(
+                        "Longitude" to "35.240197",
+                        "Latitude" to "31.779402"
+                )
+                runTask?.args("Peter", "John", "James")
             }
         }
     }
