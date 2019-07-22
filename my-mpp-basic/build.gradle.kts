@@ -1,8 +1,9 @@
 plugins {
-    kotlin("multiplatform") version "1.3.40"
+    kotlin("multiplatform") version "1.3.50-eap-5"
 }
 
 repositories {
+    maven("https://dl.bintray.com/kotlin/kotlin-eap")
     mavenCentral()
 }
 
