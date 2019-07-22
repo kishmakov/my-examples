@@ -34,10 +34,6 @@
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Test/kotlin/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Test/kotlin/HelloTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Test/kotlin/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Test/kotlin/HelloTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,6 @@
       <executable />
     </execution>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:m1.test:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -181,11 +176,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.m1.test">
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" WORKING_DIR="$PROJECT_DIR$">
+  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
         <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
+        <env name="Latitude" value="31.779402" />
         <env name="LANG" value="en_US.UTF-8" />
         <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
         <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
@@ -197,6 +193,7 @@
         <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
         <env name="USER" value="kirill.shmakov" />
         <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
+        <env name="Longitude" value="35.240197" />
         <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
         <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
         <env name="XPC_FLAGS" value="0x0" />
@@ -215,10 +212,11 @@
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2" WORKING_DIR="$PROJECT_DIR$">
+    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
         <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
+        <env name="Latitude" value="31.779402" />
         <env name="LANG" value="en_US.UTF-8" />
         <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
         <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
@@ -230,6 +228,7 @@
         <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
         <env name="USER" value="kirill.shmakov" />
         <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
+        <env name="Longitude" value="35.240197" />
         <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
         <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
         <env name="XPC_FLAGS" value="0x0" />
@@ -540,8 +539,17 @@
       <workItem from="1562765251979" duration="36000" />
       <workItem from="1563469705940" duration="225000" />
       <workItem from="1563526901607" duration="425000" />
-      <workItem from="1563788208265" duration="1347000" />
+      <workItem from="1563788208265" duration="3016000" />
+      <workItem from="1563794088535" duration="92000" />
     </task>
+    <task id="LOCAL-00001" summary="Project updated to show run configuration creation.">
+      <created>1563791395364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563791395364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,6 +572,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Project updated to show run configuration creation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project updated to show run configuration creation." />
   </component>
   <component name="WindowStateProjectService">
     <state width="775" height="280" key="GridCell.Tab.0.bottom" />
