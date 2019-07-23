@@ -32,9 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
       <executable />
     </execution>
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:m1.e1:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -63,12 +63,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -177,37 +172,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
+  <component name="RunManager" selected="Kotlin/Native Application.m1.e1">
     <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
         <env name="Latitude" value="31.779402" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
         <env name="Longitude" value="35.240197" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
       </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
@@ -215,34 +184,8 @@
     </configuration>
     <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
         <env name="Latitude" value="31.779402" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
         <env name="Longitude" value="35.240197" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
       </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
@@ -254,67 +197,11 @@
       </method>
     </configuration>
     <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1" WORKING_DIR="$PROJECT_DIR$">
-      <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
-      </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2" WORKING_DIR="$PROJECT_DIR$">
-      <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
-      </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
@@ -326,34 +213,8 @@
     </configuration>
     <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
         <env name="Latitude" value="31.779402" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
         <env name="Longitude" value="35.240197" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
       </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
@@ -361,34 +222,8 @@
     </configuration>
     <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
         <env name="Latitude" value="31.779402" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
         <env name="Longitude" value="35.240197" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
       </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
@@ -400,67 +235,11 @@
       </method>
     </configuration>
     <configuration name="w1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e1" WORKING_DIR="$PROJECT_DIR$">
-      <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
-      </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="w1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e2" WORKING_DIR="$PROJECT_DIR$">
-      <envs>
-        <env name="PATH" value="$USER_HOME$/.jenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands" />
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="LANG" value="en_US.UTF-8" />
-        <env name="GRADLE_USER_HOME" value="$USER_HOME$/.gradle" />
-        <env name="VERSIONER_PYTHON_VERSION" value="2.7" />
-        <env name="LOGNAME" value="kirill.shmakov" />
-        <env name="XPC_SERVICE_NAME" value="com.jetbrains.intellij.19620" />
-        <env name="TOOLBOX_VERSION" value="1.15.5666" />
-        <env name="SHELL" value="/bin/bash" />
-        <env name="HOMEBREW_GITHUB_API_TOKEN" value="5858e1a2eacbbd679824b80d16c1a1c0b45e2323" />
-        <env name="JDK_11" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="USER" value="kirill.shmakov" />
-        <env name="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
-        <env name="TMPDIR" value="/var/folders/vn/4smmxcjx1js9fwpvpqtsfkx80000gp/T/" />
-        <env name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.7a2OqGqrYQ/Listeners" />
-        <env name="XPC_FLAGS" value="0x0" />
-        <env name="LC_ALL" value="en_US.UTF-8" />
-        <env name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x2" />
-        <env name="COPYFILE_DISABLE" value="true" />
-        <env name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SJjgwZT9Y2/Render" />
-        <env name="JDK_9" value="/Library/Java/JavaVirtualMachines/oracle11/Contents/Home" />
-        <env name="JDK_16" value="/Library/Java/JavaVirtualMachines/oracle6/Contents/Home" />
-        <env name="JDK_17" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="JDK_18" value="/Library/Java/JavaVirtualMachines/oracle8/Contents/Home" />
-        <env name="HOME" value="$USER_HOME$" />
-        <env name="JENV_LOADED" value="1" />
-      </envs>
       <method v="2">
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
@@ -535,6 +314,18 @@
       <workItem from="1563800545320" duration="284000" />
       <workItem from="1563804298508" duration="302000" />
       <workItem from="1563804720217" duration="1326000" />
+      <workItem from="1563897006625" duration="39000" />
+      <workItem from="1563897110371" duration="99000" />
+      <workItem from="1563897369625" duration="57000" />
+      <workItem from="1563897443783" duration="42000" />
+      <workItem from="1563897522980" duration="10000" />
+      <workItem from="1563897971494" duration="12000" />
+      <workItem from="1563899994352" duration="57000" />
+      <workItem from="1563900066665" duration="38000" />
+      <workItem from="1563900210792" duration="50000" />
+      <workItem from="1563900284982" duration="19000" />
+      <workItem from="1563900331428" duration="39000" />
+      <workItem from="1563900387324" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="Project updated to show run configuration creation.">
       <created>1563791395364</created>
@@ -578,14 +369,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Run configuration for first Linux target updated." />
   </component>
   <component name="WindowStateProjectService">
-    <state width="774" height="280" key="GridCell.Tab.0.bottom" />
-    <state width="774" height="280" key="GridCell.Tab.0.bottom/3840.2160/3360.2100" />
-    <state width="774" height="280" key="GridCell.Tab.0.center" />
-    <state width="774" height="280" key="GridCell.Tab.0.center/3840.2160/3360.2100" />
-    <state width="774" height="280" key="GridCell.Tab.0.left" />
-    <state width="774" height="280" key="GridCell.Tab.0.left/3840.2160/3360.2100" />
-    <state width="774" height="280" key="GridCell.Tab.0.right" />
-    <state width="774" height="280" key="GridCell.Tab.0.right/3840.2160/3360.2100" />
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.2160/3360.2100" />
+    <state x="594" y="296" key="EnvironmentVariablesDialog" />
+    <state x="594" y="296" key="EnvironmentVariablesDialog/3840.2160/3360.2100" />
+    <state width="769" height="280" key="GridCell.Tab.0.bottom" />
+    <state width="769" height="280" key="GridCell.Tab.0.bottom/3840.2160/3360.2100" />
+    <state width="769" height="280" key="GridCell.Tab.0.center" />
+    <state width="769" height="280" key="GridCell.Tab.0.center/3840.2160/3360.2100" />
+    <state width="769" height="280" key="GridCell.Tab.0.left" />
+    <state width="769" height="280" key="GridCell.Tab.0.left/3840.2160/3360.2100" />
+    <state width="769" height="280" key="GridCell.Tab.0.right" />
+    <state width="769" height="280" key="GridCell.Tab.0.right/3840.2160/3360.2100" />
+    <state width="770" height="279" key="GridCell.Tab.1.bottom" />
+    <state width="770" height="279" key="GridCell.Tab.1.bottom/3840.2160/3360.2100" />
+    <state width="770" height="279" key="GridCell.Tab.1.center" />
+    <state width="770" height="279" key="GridCell.Tab.1.center/3840.2160/3360.2100" />
+    <state width="770" height="279" key="GridCell.Tab.1.left" />
+    <state width="770" height="279" key="GridCell.Tab.1.left/3840.2160/3360.2100" />
+    <state width="770" height="279" key="GridCell.Tab.1.right" />
+    <state width="770" height="279" key="GridCell.Tab.1.right/3840.2160/3360.2100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
