@@ -1,13 +1,15 @@
 plugins {
-    kotlin("multiplatform") version "1.3.50-eap-5"
+    kotlin("multiplatform") version "1.3.50"
 }
 
 repositories {
-    maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    jcenter()
     mavenCentral()
+    gradlePluginPortal()
+    maven("https://dl.bintray.com/kotlin/kotlin-eap")
 }
 
-kotlin {
+kotlin {    
     macosX64("m1") {
         binaries {
             executable("e1") {
