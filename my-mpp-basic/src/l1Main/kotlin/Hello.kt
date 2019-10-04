@@ -7,7 +7,7 @@ fun question(subject: String, names: Array<String> = emptyArray()): String {
     return buildString {
         append("$subject?")
         for (name in names)
-            append(" $name?")
+            append(" $name?!")
     }
 }
 

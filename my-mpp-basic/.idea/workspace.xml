@@ -32,10 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +49,6 @@
       <executable />
     </execution>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:l1.e1:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -66,7 +62,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -137,6 +143,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -153,7 +164,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -182,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.l1.e1">
+  <component name="RunManager" selected="Gradle.my-mpp-basic [runE1DebugExecutableL1]">
     <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
@@ -259,6 +270,30 @@
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="my-mpp-basic [runE1DebugExecutableL1]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runE1DebugExecutableL1" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableL1]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -338,6 +373,30 @@
       <workItem from="1563900387324" duration="45000" />
       <workItem from="1568043479609" duration="493000" />
       <workItem from="1568043997933" duration="203000" />
+      <workItem from="1568318695367" duration="184000" />
+      <workItem from="1568318974437" duration="264000" />
+      <workItem from="1569002917485" duration="25000" />
+      <workItem from="1569223666102" duration="22000" />
+      <workItem from="1569227651466" duration="24000" />
+      <workItem from="1569228004761" duration="2000" />
+      <workItem from="1569870756086" duration="34000" />
+      <workItem from="1569870938772" duration="230000" />
+      <workItem from="1569871470971" duration="46000" />
+      <workItem from="1569872982771" duration="635000" />
+      <workItem from="1569875229634" duration="621000" />
+      <workItem from="1569877034076" duration="216000" />
+      <workItem from="1569878948830" duration="335000" />
+      <workItem from="1569879458136" duration="481000" />
+      <workItem from="1569880976621" duration="650000" />
+      <workItem from="1570178341790" duration="408000" />
+      <workItem from="1570183414513" duration="59000" />
+      <workItem from="1570183513620" duration="191000" />
+      <workItem from="1570190173027" duration="2000" />
+      <workItem from="1570193850221" duration="126000" />
+      <workItem from="1570194287863" duration="15000" />
+      <workItem from="1570196431402" duration="184000" />
+      <workItem from="1570196641599" duration="16000" />
+      <workItem from="1570196756989" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="Project updated to show run configuration creation.">
       <created>1563791395364</created>
@@ -389,26 +448,68 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated to newer release." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.2160/3360.2100" />
-    <state x="594" y="296" key="EnvironmentVariablesDialog" />
-    <state x="594" y="296" key="EnvironmentVariablesDialog/3840.2160/3360.2100" />
-    <state width="769" height="280" key="GridCell.Tab.0.bottom" />
-    <state width="769" height="280" key="GridCell.Tab.0.bottom/3840.2160/3360.2100" />
-    <state width="769" height="280" key="GridCell.Tab.0.center" />
-    <state width="769" height="280" key="GridCell.Tab.0.center/3840.2160/3360.2100" />
-    <state width="769" height="280" key="GridCell.Tab.0.left" />
-    <state width="769" height="280" key="GridCell.Tab.0.left/3840.2160/3360.2100" />
-    <state width="769" height="280" key="GridCell.Tab.0.right" />
-    <state width="769" height="280" key="GridCell.Tab.0.right/3840.2160/3360.2100" />
-    <state width="770" height="279" key="GridCell.Tab.1.bottom" />
-    <state width="770" height="279" key="GridCell.Tab.1.bottom/3840.2160/3360.2100" />
-    <state width="770" height="279" key="GridCell.Tab.1.center" />
-    <state width="770" height="279" key="GridCell.Tab.1.center/3840.2160/3360.2100" />
-    <state width="770" height="279" key="GridCell.Tab.1.left" />
-    <state width="770" height="279" key="GridCell.Tab.1.left/3840.2160/3360.2100" />
-    <state width="770" height="279" key="GridCell.Tab.1.right" />
-    <state width="770" height="279" key="GridCell.Tab.1.right/3840.2160/3360.2100" />
+    <state x="588" y="274" width="800" height="677" key="#Project_Structure" timestamp="1569878950304">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="588" y="274" width="800" height="677" key="#Project_Structure/67.27.1853.1173@67.27.1853.1173" timestamp="1569878950304" />
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1569870954641" />
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state x="594" y="296" key="EnvironmentVariablesDialog" timestamp="1569870954642" />
+    <state x="594" y="296" key="EnvironmentVariablesDialog/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state x="771" y="370" key="FileChooserDialogImpl" timestamp="1569870954642" />
+    <state x="771" y="370" key="FileChooserDialogImpl/1920.1200" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.0.bottom" timestamp="1570183704619">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.0.bottom/1920.1200" timestamp="1569870954642" />
+    <state width="769" height="280" key="GridCell.Tab.0.bottom/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
+    <state width="1354" height="322" key="GridCell.Tab.0.center" timestamp="1570183704618">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.0.center/1920.1200" timestamp="1569870954642" />
+    <state width="769" height="280" key="GridCell.Tab.0.center/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704618" />
+    <state width="1354" height="322" key="GridCell.Tab.0.left" timestamp="1570183704618">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.0.left/1920.1200" timestamp="1569870954642" />
+    <state width="769" height="280" key="GridCell.Tab.0.left/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704618" />
+    <state width="1354" height="322" key="GridCell.Tab.0.right" timestamp="1570183704619">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.0.right/1920.1200" timestamp="1569870954642" />
+    <state width="769" height="280" key="GridCell.Tab.0.right/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
+    <state width="1354" height="322" key="GridCell.Tab.1.bottom" timestamp="1570183704620">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.bottom/1920.1200" timestamp="1569870954642" />
+    <state width="770" height="279" key="GridCell.Tab.1.bottom/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.1.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704620" />
+    <state width="1354" height="322" key="GridCell.Tab.1.center" timestamp="1570183704619">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.center/1920.1200" timestamp="1569870954642" />
+    <state width="770" height="279" key="GridCell.Tab.1.center/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.1.center/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
+    <state width="1354" height="322" key="GridCell.Tab.1.left" timestamp="1570183704619">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.left/1920.1200" timestamp="1569870954642" />
+    <state width="770" height="279" key="GridCell.Tab.1.left/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.1.left/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
+    <state width="1354" height="322" key="GridCell.Tab.1.right" timestamp="1570183704619">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.right/1920.1200" timestamp="1569870954642" />
+    <state width="770" height="279" key="GridCell.Tab.1.right/3840.2160/3360.2100" timestamp="1569870954642" />
+    <state width="1354" height="322" key="GridCell.Tab.1.right/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
+    <state x="576" y="302" key="IDE.errors.dialog" timestamp="1569870954642" />
+    <state x="576" y="302" key="IDE.errors.dialog/1920.1200" timestamp="1569870954642" />
+    <state x="269" y="259" key="SettingsEditor" timestamp="1569870954642" />
+    <state x="269" y="259" key="SettingsEditor/1920.1200" timestamp="1569870954642" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,20 +531,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
