@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l1Main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l1Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l1Test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l1Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l2Main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l2Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l2Test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.l2Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.m1Main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.m1Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.m1Test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.m1Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.w1Main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.w1Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.w1Test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-examples.my-mpp-basic.w1Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my-mpp-basic.iml" filepath="$PROJECT_DIR$/.idea/my-mpp-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonMain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonTest.iml" />
