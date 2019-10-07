@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BuildServerSettings">
-    <option name="LOGIN" value="" />
-    <option name="SERVER_URL" value="http://buildserver" />
-    <option name="REMEMBER_ME" value="true" />
-    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
-    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
-    <option name="DUPLICATES_BUILD_TYPE_IDS" />
-    <option name="COVERAGE_SETTINGS" />
-    <option name="TEST_STATUS_ENABLED" value="true" />
-    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
-    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
-    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
-    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
-    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
-    <option name="REQUEST_CONFIRMATON" value="false" />
-    <option name="PRE_TESTED_COMMIT" value="true" />
-    <option name="FILTER_BY_STATUS" value="false" />
-    <option name="FILTER_MARKED_AS_FIXED" value="false" />
-    <option name="SHOW_CLOSE_PROMPT" value="true" />
-    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
-    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
-  </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
-  </component>
-  <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-    </configurations>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="">
+    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,14 +10,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ClangdSettings">
-    <option name="formatViaClangd" value="false" />
-  </component>
   <component name="ComposerSettings">
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:m1.e1:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -69,7 +41,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="run" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -80,15 +58,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="InvalidFacetManager">
-    <ignored-facets>
-      <facet id="my-mpp-basic.commonMain/invalid/Kotlin" />
-      <facet id="my-mpp-basic.commonTest/invalid/Kotlin" />
-      <facet id="my-mpp-basic.m1Main/invalid/Kotlin" />
-      <facet id="my-mpp-basic.m1Test/invalid/Kotlin" />
-    </ignored-facets>
   </component>
   <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3.50">
     <executables>
@@ -138,47 +107,15 @@
       </executable>
     </executables>
   </component>
-  <component name="ProjectId" id="1MoiqvKasrQQh2w3yNwhHwGYodl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1RsEhzP5Edj08uNGFuYzQRmlAsP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="PsiViewer.ProjectComponent">
-    <option name="HIGHLIGHT" value="false" />
-    <option name="FILTER_WHITESPACE" value="false" />
-    <option name="SHOW_PROPERTIES" value="true" />
-    <option name="SPLIT_DIVIDER_POSITION" value="300" />
-    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
-  </component>
-  <component name="RubyModuleManagerSettings">
-    <option name="blackListedRootsPaths">
-      <list>
-        <option value="$PROJECT_DIR$" />
-      </list>
-    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.my-mpp-basic [runE1DebugExecutableL1]">
+  <component name="RunManager" selected="Kotlin/Native Application.m1.e1">
     <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
@@ -269,7 +206,7 @@
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="my-mpp-basic [runE1DebugExecutableL1]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="my-mpp-basic [runE1DebugExecutableM1]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -280,7 +217,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="runE1DebugExecutableL1" />
+            <option value="runE1DebugExecutableM1" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -290,7 +227,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableL1]" />
+        <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableM1]" />
       </list>
     </recent_temporary>
   </component>
@@ -299,102 +236,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2988df0d-283b-4b1b-b487-aa18371f4b20" name="Default Changelist" comment="" />
-      <created>1558529354263</created>
+      <changelist id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="" />
+      <created>1570447526968</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558529354263</updated>
-      <workItem from="1558529355556" duration="162000" />
-      <workItem from="1558529564559" duration="77000" />
-      <workItem from="1561472980377" duration="586000" />
-      <workItem from="1561634315235" duration="666000" />
-      <workItem from="1561635585209" duration="208000" />
-      <workItem from="1561636256085" duration="993000" />
-      <workItem from="1561641218373" duration="317000" />
-      <workItem from="1561641666622" duration="3834000" />
-      <workItem from="1561646816743" duration="1784000" />
-      <workItem from="1561718056552" duration="915000" />
-      <workItem from="1561724440449" duration="819000" />
-      <workItem from="1562051684054" duration="126000" />
-      <workItem from="1562051834756" duration="31000" />
-      <workItem from="1562052102156" duration="492000" />
-      <workItem from="1562614071829" duration="150000" />
-      <workItem from="1562617235496" duration="253000" />
-      <workItem from="1562752191727" duration="818000" />
-      <workItem from="1562754872579" duration="144000" />
-      <workItem from="1562755270142" duration="378000" />
-      <workItem from="1562756929898" duration="561000" />
-      <workItem from="1562758288701" duration="722000" />
-      <workItem from="1562759089775" duration="253000" />
-      <workItem from="1562759740646" duration="15000" />
-      <workItem from="1562760007168" duration="26000" />
-      <workItem from="1562760488812" duration="86000" />
-      <workItem from="1562760759529" duration="166000" />
-      <workItem from="1562761064591" duration="13000" />
-      <workItem from="1562761462942" duration="526000" />
-      <workItem from="1562762318332" duration="111000" />
-      <workItem from="1562762539808" duration="14000" />
-      <workItem from="1562762769217" duration="45000" />
-      <workItem from="1562762932737" duration="18000" />
-      <workItem from="1562763292014" duration="194000" />
-      <workItem from="1562763495396" duration="4000" />
-      <workItem from="1562763588327" duration="13000" />
-      <workItem from="1562763657969" duration="23000" />
-      <workItem from="1562763789981" duration="43000" />
-      <workItem from="1562764126900" duration="13000" />
-      <workItem from="1562764788120" duration="26000" />
-      <workItem from="1562765070081" duration="105000" />
-      <workItem from="1562765180602" duration="5000" />
-      <workItem from="1562765191706" duration="5000" />
-      <workItem from="1562765251979" duration="36000" />
-      <workItem from="1563469705940" duration="225000" />
-      <workItem from="1563526901607" duration="425000" />
-      <workItem from="1563788208265" duration="3016000" />
-      <workItem from="1563794088535" duration="280000" />
-      <workItem from="1563794745921" duration="84000" />
-      <workItem from="1563795178861" duration="20000" />
-      <workItem from="1563795214804" duration="35000" />
-      <workItem from="1563798976720" duration="44000" />
-      <workItem from="1563800545320" duration="284000" />
-      <workItem from="1563804298508" duration="302000" />
-      <workItem from="1563804720217" duration="1326000" />
-      <workItem from="1563897006625" duration="39000" />
-      <workItem from="1563897110371" duration="99000" />
-      <workItem from="1563897369625" duration="57000" />
-      <workItem from="1563897443783" duration="42000" />
-      <workItem from="1563897522980" duration="10000" />
-      <workItem from="1563897971494" duration="12000" />
-      <workItem from="1563899994352" duration="57000" />
-      <workItem from="1563900066665" duration="38000" />
-      <workItem from="1563900210792" duration="50000" />
-      <workItem from="1563900284982" duration="19000" />
-      <workItem from="1563900331428" duration="39000" />
-      <workItem from="1563900387324" duration="45000" />
-      <workItem from="1568043479609" duration="493000" />
-      <workItem from="1568043997933" duration="203000" />
+      <updated>1570447526968</updated>
+      <workItem from="1570447533706" duration="200000" />
+      <workItem from="1570447756144" duration="7000" />
+      <workItem from="1570447790983" duration="7000" />
+      <workItem from="1570447860623" duration="180000" />
     </task>
-    <task id="LOCAL-00001" summary="Project updated to show run configuration creation.">
-      <created>1563791395364</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563791395364</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Run configuration for first Linux target updated.">
-      <created>1563794246109</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1563794246109</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Updated to newer release.">
-      <created>1568042828283</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1568042828284</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,96 +264,13 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="Project updated to show run configuration creation." />
-    <MESSAGE value="Run configuration for first Linux target updated." />
-    <MESSAGE value="Updated to newer release." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to newer release." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="588" y="274" width="800" height="677" key="#Project_Structure" timestamp="1569878950304">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state x="588" y="274" width="800" height="677" key="#Project_Structure/67.27.1853.1173@67.27.1853.1173" timestamp="1569878950304" />
-    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1569870954641" />
-    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state x="594" y="296" key="EnvironmentVariablesDialog" timestamp="1569870954642" />
-    <state x="594" y="296" key="EnvironmentVariablesDialog/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state x="771" y="370" key="FileChooserDialogImpl" timestamp="1569870954642" />
-    <state x="771" y="370" key="FileChooserDialogImpl/1920.1200" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.0.bottom" timestamp="1570183704619">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.0.bottom/1920.1200" timestamp="1569870954642" />
-    <state width="769" height="280" key="GridCell.Tab.0.bottom/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
-    <state width="1354" height="322" key="GridCell.Tab.0.center" timestamp="1570183704618">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.0.center/1920.1200" timestamp="1569870954642" />
-    <state width="769" height="280" key="GridCell.Tab.0.center/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704618" />
-    <state width="1354" height="322" key="GridCell.Tab.0.left" timestamp="1570183704618">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.0.left/1920.1200" timestamp="1569870954642" />
-    <state width="769" height="280" key="GridCell.Tab.0.left/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704618" />
-    <state width="1354" height="322" key="GridCell.Tab.0.right" timestamp="1570183704619">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.0.right/1920.1200" timestamp="1569870954642" />
-    <state width="769" height="280" key="GridCell.Tab.0.right/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
-    <state width="1354" height="322" key="GridCell.Tab.1.bottom" timestamp="1570183704620">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.1.bottom/1920.1200" timestamp="1569870954642" />
-    <state width="770" height="279" key="GridCell.Tab.1.bottom/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.1.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704620" />
-    <state width="1354" height="322" key="GridCell.Tab.1.center" timestamp="1570183704619">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.1.center/1920.1200" timestamp="1569870954642" />
-    <state width="770" height="279" key="GridCell.Tab.1.center/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.1.center/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
-    <state width="1354" height="322" key="GridCell.Tab.1.left" timestamp="1570183704619">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.1.left/1920.1200" timestamp="1569870954642" />
-    <state width="770" height="279" key="GridCell.Tab.1.left/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.1.left/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
-    <state width="1354" height="322" key="GridCell.Tab.1.right" timestamp="1570183704619">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state width="1354" height="321" key="GridCell.Tab.1.right/1920.1200" timestamp="1569870954642" />
-    <state width="770" height="279" key="GridCell.Tab.1.right/3840.2160/3360.2100" timestamp="1569870954642" />
-    <state width="1354" height="322" key="GridCell.Tab.1.right/67.27.1853.1173@67.27.1853.1173" timestamp="1570183704619" />
-    <state x="576" y="302" key="IDE.errors.dialog" timestamp="1569870954642" />
-    <state x="576" y="302" key="IDE.errors.dialog/1920.1200" timestamp="1569870954642" />
-    <state x="269" y="259" key="SettingsEditor" timestamp="1569870954642" />
-    <state x="269" y="259" key="SettingsEditor/1920.1200" timestamp="1569870954642" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/w1Main/kotlin/Hello.kt</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt</url>
-          <line>7</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt</url>
+          <url>file://$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt</url>
           <line>14</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
