@@ -149,7 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/../gradlew\" -p \"$SRCROOT\" buildAppForXcode \\\n-Puikit.preset.name=\"$KOTLIN_NATIVE_PRESET\" \\\n-Puikit.configuration.name=\"$CONFIGURATION\" \\\n-Puikit.binary.location=\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n";
+			shellScript = "\"$SRCROOT/gradlew\" -p \"$SRCROOT\" buildAppForXcode \\\n-Puikit.preset.name=\"$KOTLIN_NATIVE_PRESET\" \\\n-Puikit.configuration.name=\"$CONFIGURATION\" \\\n-Puikit.binary.location=\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n";
 		};
 		2C901F9C1F5D7074004412FA /* Remove Original Binary */ = {
 			isa = PBXShellScriptBuildPhase;
