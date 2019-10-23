@@ -40,7 +40,7 @@ val buildAppForXcode by tasks.creating {
 
     doLast {
         if (!isCalledFromXcode()) {
-            throw Exception("Please run \"buildAppForXcode\" task with all necessary properties!")
+            throw Exception("Please run 'buildAppForXcode' task with all necessary properties!")
         }
 
         copy {

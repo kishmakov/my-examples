@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa42bfa-d69f-4b48-b427-4775576b25c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppSource/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppSource/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/SceneDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppSource/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.commonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.commonTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.m1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.m1Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.w1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.w1Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/konan.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/konan.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +36,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -63,8 +79,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571671178228</updated>
-      <workItem from="1571671180829" duration="258000" />
+      <workItem from="1571671180829" duration="716000" />
+      <workItem from="1571752291809" duration="2205000" />
+      <workItem from="1571761087741" duration="270000" />
+      <workItem from="1571822278740" duration="23000" />
     </task>
+    <task id="LOCAL-00001" summary="Update state.">
+      <created>1571671652957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671652957</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,10 +102,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update state." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update state." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/iosMain/kotlin/main.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

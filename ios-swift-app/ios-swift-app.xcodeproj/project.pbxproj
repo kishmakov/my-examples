@@ -56,23 +56,15 @@
 		F33CD8E6235B383200E3B940 /* ios-swift-app */ = {
 			isa = PBXGroup;
 			children = (
-				F33CD8FB235B38A000E3B940 /* AppSource */,
+				F33CD8E7235B383200E3B940 /* AppDelegate.swift */,
+				F33CD8E9235B383200E3B940 /* SceneDelegate.swift */,
+				F33CD8EB235B383200E3B940 /* ViewController.swift */,
 				F33CD8ED235B383200E3B940 /* Main.storyboard */,
 				F33CD8F0235B383200E3B940 /* Assets.xcassets */,
 				F33CD8F2235B383200E3B940 /* LaunchScreen.storyboard */,
 				F33CD8F5235B383200E3B940 /* Info.plist */,
 			);
 			path = "ios-swift-app";
-			sourceTree = "<group>";
-		};
-		F33CD8FB235B38A000E3B940 /* AppSource */ = {
-			isa = PBXGroup;
-			children = (
-				F33CD8E7235B383200E3B940 /* AppDelegate.swift */,
-				F33CD8E9235B383200E3B940 /* SceneDelegate.swift */,
-				F33CD8EB235B383200E3B940 /* ViewController.swift */,
-			);
-			path = AppSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

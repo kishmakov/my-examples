@@ -2,7 +2,7 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId="my-mpp-basic">
+      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []" useProjectSettings="false" isTestModule="true" externalProjectId="my-mpp-basic">
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>
           <externalSystemTestTask>l1Test|my-mpp-basic:l1Test|l1</externalSystemTestTask>
