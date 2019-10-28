@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l1Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l2Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l2Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.m1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.m1Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.w1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.w1Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +68,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="run" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -63,7 +80,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3.50">
+  <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3.60-eap-13081">
     <executables>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
         <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
@@ -122,11 +139,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Gradle.my-mpp-basic [runE1DebugExecutableM1]">
+  <component name="PsiViewer.ProjectComponent">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="true" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="RunManager" selected="Gradle.my-mpp-basic [m1Test]">
     <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
@@ -203,6 +234,25 @@
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="my-mpp-basic [m1Test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="m1Test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="my-mpp-basic [runE1DebugExecutableM1]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,8 +272,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.my-mpp-basic [m1Test]" />
+      <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableM1]" />
+      <item itemvalue="Kotlin/Native Application.l1.e1" />
+      <item itemvalue="Kotlin/Native Application.l1.e2" />
+      <item itemvalue="Kotlin/Native Application.l1.test" />
+      <item itemvalue="Kotlin/Native Application.l2.e1" />
+      <item itemvalue="Kotlin/Native Application.l2.e2" />
+      <item itemvalue="Kotlin/Native Application.l2.test" />
+      <item itemvalue="Kotlin/Native Application.m1.e1" />
+      <item itemvalue="Kotlin/Native Application.m1.e2" />
+      <item itemvalue="Kotlin/Native Application.m1.test" />
+      <item itemvalue="Kotlin/Native Application.w1.e1" />
+      <item itemvalue="Kotlin/Native Application.w1.e2" />
+      <item itemvalue="Kotlin/Native Application.w1.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.my-mpp-basic [m1Test]" />
         <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableM1]" />
       </list>
     </recent_temporary>
@@ -252,6 +319,12 @@
       <workItem from="1571737223915" duration="15000" />
       <workItem from="1571748342459" duration="1559000" />
       <workItem from="1571751153241" duration="75000" />
+      <workItem from="1571927140377" duration="131000" />
+      <workItem from="1571929916686" duration="1850000" />
+      <workItem from="1571932372295" duration="104000" />
+      <workItem from="1571933349860" duration="1561000" />
+      <workItem from="1571938879765" duration="121000" />
+      <workItem from="1571939186139" duration="186000" />
     </task>
     <servers />
   </component>
@@ -272,38 +345,58 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="267" key="GridCell.Tab.0.bottom" timestamp="1571751232827">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="2104" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1571934779330">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state x="2104" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571934779330" />
+    <state width="1358" height="267" key="GridCell.Tab.0.bottom" timestamp="1571939447004">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="939" height="375" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807465" />
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232827" />
-    <state width="1358" height="267" key="GridCell.Tab.0.center" timestamp="1571751232826">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447004" />
+    <state width="1358" height="267" key="GridCell.Tab.0.center" timestamp="1571939447004">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807464" />
     <state width="1358" height="267" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232826" />
-    <state width="1358" height="267" key="GridCell.Tab.0.left" timestamp="1571751232826">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447004" />
+    <state width="1358" height="267" key="GridCell.Tab.0.left" timestamp="1571939447004">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807463" />
     <state width="1358" height="267" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232826" />
-    <state width="1358" height="267" key="GridCell.Tab.0.right" timestamp="1571751232827">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447004" />
+    <state width="1358" height="267" key="GridCell.Tab.0.right" timestamp="1571939447004">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807465" />
     <state width="1358" height="267" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232827" />
-    <state width="1358" height="267" key="GridCell.Tab.1.bottom" timestamp="1571750126091">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447004" />
+    <state width="1358" height="267" key="GridCell.Tab.1.bottom" timestamp="1571939447005">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807470" />
     <state width="1358" height="267" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126091" />
-    <state width="1358" height="267" key="GridCell.Tab.1.center" timestamp="1571750126090">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447005" />
+    <state width="1358" height="267" key="GridCell.Tab.1.center" timestamp="1571939447005">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807469" />
     <state width="1358" height="267" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126090" />
-    <state width="1358" height="267" key="GridCell.Tab.1.left" timestamp="1571750126090">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447005" />
+    <state width="1358" height="267" key="GridCell.Tab.1.left" timestamp="1571939447004">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807468" />
     <state width="1358" height="267" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126090" />
-    <state width="1358" height="267" key="GridCell.Tab.1.right" timestamp="1571750126091">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="267" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447004" />
+    <state width="1358" height="267" key="GridCell.Tab.1.right" timestamp="1571939447005">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="939" height="375" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1571929807469" />
     <state width="1358" height="267" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126091" />
+    <state width="1358" height="267" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571939447005" />
     <state x="428" y="288" key="IDE.errors.dialog" timestamp="1571748851894">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -314,8 +407,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

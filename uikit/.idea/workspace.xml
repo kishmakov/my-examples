@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa42bfa-d69f-4b48-b427-4775576b25c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppSource/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppSource/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/SceneDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/AppSource/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.commonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.commonTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.m1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.m1Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.w1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/modules/my-mpp-basic.w1Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-mpp-basic/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../my-mpp-basic/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="3aa42bfa-d69f-4b48-b427-4775576b25c9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +68,7 @@
       <workItem from="1571752291809" duration="2205000" />
       <workItem from="1571761087741" duration="270000" />
       <workItem from="1571822278740" duration="23000" />
+      <workItem from="1571822472197" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="Update state.">
       <created>1571671652957</created>
