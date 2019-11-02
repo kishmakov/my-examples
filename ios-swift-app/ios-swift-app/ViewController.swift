@@ -10,17 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     
     override func viewDidLoad() {        
-        let originalFrame = view.frame
-        
-        let xMargin: CGFloat = 20
-        let yMargin: CGFloat = 20
-
-        let mapHeight: CGFloat = 200
-        let mapWidth = originalFrame.size.width - 2 * xMargin
-
-        let mapRect = CGRect(x: xMargin, y: yMargin, width: mapWidth, height: mapHeight)
-        let map = MapView(frame: mapRect)
-        view.addSubview(map)
+//        let originalFrame = view.frame
+//        
+//        let xMargin: CGFloat = 20
+//        let yMargin: CGFloat = 20
+//
+//        let mapHeight: CGFloat = 200
+//        let mapWidth = originalFrame.size.width - 2 * xMargin
+//
+//        let mapRect = CGRect(x: xMargin, y: yMargin, width: mapWidth, height: mapHeight)
+//        let map = MapView(frame: mapRect)
+//        view.addSubview(map)
     }
     
     @IBAction func touchCard(_ sender: UIButton) {
