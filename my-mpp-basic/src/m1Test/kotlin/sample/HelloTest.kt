@@ -5,7 +5,7 @@ import kotlin.test.assertTrue
 
 class SampleTestsMacOS {
     @Test
-    fun testHello() {
+    fun testQuestion() {
         assertTrue("up" in question("What's up"))
     }
 }

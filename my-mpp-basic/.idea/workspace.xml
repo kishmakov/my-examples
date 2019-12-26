@@ -25,20 +25,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="Add common code">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/MapView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/MapView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.commonTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l1Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l2Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l2Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.m1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.m1Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.w1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.w1Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/Sample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Sample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/SampleTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/sample/SampleTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Main/kotlin/sample/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Test/kotlin/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l1Test/kotlin/sample/HelloTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l2Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l2Main/kotlin/sample/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l2Test/kotlin/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/l2Test/kotlin/sample/HelloTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/sample/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Test/kotlin/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Test/kotlin/sample/HelloTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w1Main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/w1Main/kotlin/sample/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w1Test/kotlin/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/w1Test/kotlin/sample/HelloTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Sample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Sample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/sample/SampleTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/sample/SampleTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/m1Test/kotlin/sample/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Test/kotlin/sample/HelloTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" afterDir="false" />
     </list>
@@ -76,6 +77,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -162,6 +174,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -172,7 +187,7 @@
     <option name="AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.SampleTests.testProxy">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -256,7 +271,68 @@
         <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTestsMacOS.testHello" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;sample.SampleTestsMacOS.testHello&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanM1Test" />
+            <option value="m1Test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SampleTests.testProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;sample.SampleTests.testProxy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jvmTest" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-mpp-basic [jvmTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jvmTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Gradle.SampleTestsMacOS.testHello" />
+      <item itemvalue="Gradle.SampleTests.testProxy" />
+      <item itemvalue="Gradle.my-mpp-basic [jvmTest]" />
       <item itemvalue="Kotlin/Native Application.l1.e1" />
       <item itemvalue="Kotlin/Native Application.l1.e2" />
       <item itemvalue="Kotlin/Native Application.l1.test" />
@@ -270,6 +346,15 @@
       <item itemvalue="Kotlin/Native Application.w1.e2" />
       <item itemvalue="Kotlin/Native Application.w1.test" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SampleTests.testProxy" />
+        <item itemvalue="Gradle.SampleTests.testProxy" />
+        <item itemvalue="Gradle.SampleTests.testProxy" />
+        <item itemvalue="Gradle.my-mpp-basic [jvmTest]" />
+        <item itemvalue="Gradle.SampleTests.testProxy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -315,7 +400,11 @@
       <workItem from="1572423060925" duration="235000" />
       <workItem from="1572448590587" duration="363000" />
       <workItem from="1572449117168" duration="794000" />
-      <workItem from="1577351967962" duration="3650000" />
+      <workItem from="1577351967962" duration="5280000" />
+      <workItem from="1577359660485" duration="139000" />
+      <workItem from="1577359809625" duration="603000" />
+      <workItem from="1577360428168" duration="57000" />
+      <workItem from="1577360495239" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="Add common code">
       <created>1577357211688</created>
@@ -331,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577357794054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Arrange files by packages">
+      <created>1577358075772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577358075772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,86 +449,103 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add common code" />
     <MESSAGE value="Change package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change package" />
+    <MESSAGE value="Arrange files by packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrange files by packages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2104" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577358015047">
+    <state x="2240" y="207" key="#Project_Structure" timestamp="1577358085185">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2104" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577358015047" />
+    <state x="2240" y="207" key="#Project_Structure/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577358085185" />
+    <state x="2104" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577360667517">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2104" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360667517" />
     <state x="2104" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1571934779330" />
     <state x="2402" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577356644538">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2402" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577356644538" />
-    <state x="2138" y="143" key="CommitChangelistDialog2" timestamp="1577357793946">
+    <state x="2138" y="143" key="CommitChangelistDialog2" timestamp="1577358075673">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2138" y="143" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357793946" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1577357126158">
+    <state x="2138" y="143" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577358075673" />
+    <state width="1878" height="373" key="GridCell.Tab.0.bottom" timestamp="1577360939323">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351102" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357126158" />
+    <state width="1878" height="373" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939323" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413406" />
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232827" />
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903762" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1577357126157">
+    <state width="1878" height="373" key="GridCell.Tab.0.center" timestamp="1577360939321">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351101" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357126157" />
+    <state width="1878" height="373" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939321" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413405" />
     <state width="1358" height="267" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232826" />
     <state width="1358" height="267" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903762" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1577357126156">
+    <state width="1878" height="373" key="GridCell.Tab.0.left" timestamp="1577360939320">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351101" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357126156" />
+    <state width="1878" height="373" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939320" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413405" />
     <state width="1358" height="267" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232826" />
     <state width="1358" height="267" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903762" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1577357126157">
+    <state width="1878" height="373" key="GridCell.Tab.0.right" timestamp="1577360939322">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351102" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357126157" />
+    <state width="1878" height="373" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939322" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413406" />
     <state width="1358" height="267" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571751232827" />
     <state width="1358" height="267" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903762" />
-    <state width="1878" height="374" key="GridCell.Tab.1.bottom" timestamp="1577352437903">
+    <state width="1878" height="373" key="GridCell.Tab.1.bottom" timestamp="1577360939326">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351104" />
-    <state width="1878" height="374" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577352437903" />
+    <state width="1878" height="373" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939326" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577359899365" />
     <state width="1358" height="267" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126091" />
     <state width="1358" height="267" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903763" />
-    <state width="1878" height="374" key="GridCell.Tab.1.center" timestamp="1577352437902">
+    <state width="1878" height="373" key="GridCell.Tab.1.center" timestamp="1577360939324">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351103" />
-    <state width="1878" height="374" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577352437902" />
+    <state width="1878" height="373" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939324" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577359899363" />
     <state width="1358" height="267" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126090" />
     <state width="1358" height="267" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903763" />
-    <state width="1878" height="374" key="GridCell.Tab.1.left" timestamp="1577352437901">
+    <state width="1878" height="373" key="GridCell.Tab.1.left" timestamp="1577360939323">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351103" />
-    <state width="1878" height="374" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577352437901" />
+    <state width="1878" height="373" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939323" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577359899361" />
     <state width="1358" height="267" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126090" />
     <state width="1358" height="267" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903763" />
-    <state width="1878" height="374" key="GridCell.Tab.1.right" timestamp="1577352437903">
+    <state width="1878" height="373" key="GridCell.Tab.1.right" timestamp="1577360939325">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="819" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1572423351103" />
-    <state width="1878" height="374" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577352437903" />
+    <state width="1878" height="373" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939325" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577359899364" />
     <state width="1358" height="267" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571750126091" />
     <state width="1358" height="267" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340903763" />
     <state x="428" y="288" key="IDE.errors.dialog" timestamp="1571748851894">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="428" y="288" key="IDE.errors.dialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1571748851894" />
-    <state x="2149" y="179" key="SettingsEditor" timestamp="1577352097441">
+    <state x="2183" y="198" key="Registry" timestamp="1577359991173">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577352097441" />
+    <state x="2183" y="198" key="Registry/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577359991173" />
+    <state x="2149" y="179" key="SettingsEditor" timestamp="1577360758893">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360758893" />
     <state x="2240" y="281" key="Vcs.Push.Dialog.v2" timestamp="1577357708561">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
@@ -445,5 +558,20 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2303" y="304" width="824" height="538" key="find.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357694848" />
+    <state x="2305" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1577359974283">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2305" y="241" width="670" height="676" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577359974283" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/commonMain/kotlin/sample/Sample.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

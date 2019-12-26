@@ -11,6 +11,6 @@ class SampleTests {
 
     @Test
     fun testProxy() {
-        assertTrue(Proxy().proxyHello().contains("Hello"))
+        assertTrue(Proxy().proxyHello("Jack").contains("Dear"))
     }
 }

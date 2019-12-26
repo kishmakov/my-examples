@@ -23,6 +23,21 @@ kotlin {
                 implementation(kotlin("test-annotations-common"))
             }
         }
+
+        jvm().compilations["main"].defaultSourceSet {
+            dependencies {
+                implementation(kotlin("stdlib"))
+            }
+        }
+
+        jvm().compilations["test"].defaultSourceSet {
+            dependencies {
+                implementation(kotlin("test-junit"))
+            }
+        }
+    }
+
+    jvm("jvm") {
     }
 
     macosX64("m1") {
