@@ -1,15 +1,23 @@
 package sample.helloworld
 
-fun hello(name: String): String {
+actual class Sample actual constructor() {
+    actual fun checkMe(): Int = 57
+}
+
+fun greet(name: String): String {
     return "Hello, $name!"
 }
 
 fun main1(args: Array<String>) {
-    println(hello("Kotlin/Native"))
+    println(greet("Kotlin/Native"))
     for (arg in args)
-        println(hello(arg))
+        println(greet(arg))
 }
 
 fun main2() {
-    println(hello("James Smith"))
+    println(greet("James Smith"))
+}
+
+actual object Platform {
+    actual val name: String = "Windows"
 }

@@ -1,4 +1,5 @@
 *.iml
+*.ser
 */.vs
 */.idea/.name
 */.idea/artifacts/dist_auto_*
@@ -19,4 +20,5 @@
 /tmp
 obj
 bin
+caches
 build/

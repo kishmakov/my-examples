@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.3.60-eap-76"
+    kotlin("multiplatform") version "1.3.61"
 }
 
 repositories {
@@ -9,7 +9,22 @@ repositories {
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
 }
 
-kotlin {    
+kotlin {
+    sourceSets {
+        val commonMain by getting {
+            dependencies {
+                implementation(kotlin("stdlib-common"))
+            }
+        }
+
+        val commonTest by getting {
+            dependencies {
+                implementation(kotlin("test-common"))
+                implementation(kotlin("test-annotations-common"))
+            }
+        }
+    }
+
     macosX64("m1") {
         binaries {
             executable("e1") {

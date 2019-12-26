@@ -3,6 +3,10 @@ package sample.helloworld
 import kotlinx.cinterop.*
 import platform.posix.*
 
+actual class Sample actual constructor() {
+    actual fun checkMe(): Int = 239
+}
+
 fun question(subject: String, names: Array<String> = emptyArray()): String {
     return buildString {
         append("$subject?")
@@ -32,4 +36,8 @@ fun main1(args: Array<String>) {
 fun main2(args: Array<String>) {
     println(question("Will none of you wait for me", args))
     println("Location: " + currentLocation())
+}
+
+actual object Platform {
+    actual val name: String = "Linux1"
 }

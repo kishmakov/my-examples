@@ -1,6 +1,8 @@
 package sample.helloworld
 
-fun hello(): String = "Hello, Kotlin/Native!"
+actual class Sample actual constructor() {
+    actual fun checkMe(): Int = 566
+}
 
 fun bye(): String = "Bye, Kotlin/Native!"
 
@@ -18,4 +20,8 @@ fun main2() {
         println("...")
     }
     println(bye())
+}
+
+actual object Platform {
+    actual val name: String = "Linux2"
 }
