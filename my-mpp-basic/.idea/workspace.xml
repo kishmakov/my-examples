@@ -24,16 +24,10 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="">
+    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="Add common code">
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/MapView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app/MapView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l1Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l2Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.l2Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.m1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.m1Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.w1Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/my-mpp-basic.w1Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" afterDir="false" />
     </list>
@@ -381,7 +375,7 @@
       <workItem from="1572423060925" duration="235000" />
       <workItem from="1572448590587" duration="363000" />
       <workItem from="1572449117168" duration="794000" />
-      <workItem from="1577351967962" duration="3051000" />
+      <workItem from="1577351967962" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="Add common code">
       <created>1577357211688</created>
@@ -422,10 +416,10 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2402" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577356644538" />
-    <state x="2138" y="143" key="CommitChangelistDialog2" timestamp="1577357211504">
+    <state x="2138" y="143" key="CommitChangelistDialog2" timestamp="1577357471212">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2138" y="143" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357211504" />
+    <state x="2138" y="143" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357471212" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1577357126158">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
@@ -490,14 +484,18 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577352097441" />
+    <state x="2240" y="281" key="Vcs.Push.Dialog.v2" timestamp="1577357708561">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="281" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357708561" />
     <state x="2190" y="311" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1572340237848">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2190" y="311" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1572340237848" />
-    <state x="2303" y="304" width="824" height="538" key="find.popup" timestamp="1577357123896">
+    <state x="2303" y="304" width="824" height="538" key="find.popup" timestamp="1577357694848">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2303" y="304" width="824" height="538" key="find.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357123896" />
+    <state x="2303" y="304" width="824" height="538" key="find.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357694848" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

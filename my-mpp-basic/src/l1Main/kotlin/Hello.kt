@@ -1,4 +1,4 @@
-package sample.helloworld
+package sample
 
 import kotlinx.cinterop.*
 import platform.posix.*

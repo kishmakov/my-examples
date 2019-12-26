@@ -1,4 +1,4 @@
-package sample.helloworld
+package sample
 
 actual class Sample actual constructor() {
     actual fun checkMe(): Int = 566
