@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SpriteKit
+import map_library
 
 
 class MapView: UIView {
@@ -30,6 +31,11 @@ class MapView: UIView {
         path.addLine(to: CGPoint(x: x + 200, y: y))
         path.addLine(to: CGPoint(x: x, y: y + 100))
         path.close()
+        
+        let xx: Int32 = 10
+        let yy: Int32 = 20
+        let zz = ProviderKt.sum239(a: xx, b: yy)
+        print("zz is \(zz)")
         
         path.lineWidth = 3.0
         UIColor.green.setStroke()
