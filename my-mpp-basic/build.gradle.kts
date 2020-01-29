@@ -1,4 +1,5 @@
 plugins {
+//    kotlin("multiplatform") version "1.3.70-eap-42"
     kotlin("multiplatform") version "1.3.61"
 }
 
@@ -43,7 +44,7 @@ kotlin {
     macosX64("m1") {
         binaries {
             executable("e1") {
-                entryPoint = "sample.helloworld.main1"
+                entryPoint = "sample.main1"
                 runTask?.environment(
                         "Longitude" to "35.240197",
                         "Latitude" to "31.779402"
@@ -52,7 +53,7 @@ kotlin {
             }
 
             executable("e2") {
-                entryPoint = "sample.helloworld.main2"
+                entryPoint = "sample.main2"
                 runTask?.environment(
                         "Longitude" to "35.240197",
                         "Latitude" to "31.779402"
@@ -65,11 +66,11 @@ kotlin {
     mingwX64("w1") {
         binaries {
             executable("e1") {
-                entryPoint = "sample.helloworld.main1"
+                entryPoint = "sample.main1"
             }
 
             executable("e2") {
-                entryPoint = "sample.helloworld.main2"
+                entryPoint = "sample.main2"
             }
         }
     }
@@ -77,7 +78,7 @@ kotlin {
     linuxX64("l1") {
         binaries {
             executable("e1") {
-                entryPoint = "sample.helloworld.main1"
+                entryPoint = "sample.main1"
                 runTask?.environment(
                         "Longitude" to "35.240197",
                         "Latitude" to "31.779402"
@@ -86,7 +87,7 @@ kotlin {
             }
 
             executable("e2") {
-                entryPoint = "sample.helloworld.main2"
+                entryPoint = "sample.main2"
                 runTask?.environment(
                         "Longitude" to "35.240197",
                         "Latitude" to "31.779402"
@@ -99,11 +100,11 @@ kotlin {
     linuxX64("l2") {
         binaries {
             executable("e1") {
-                entryPoint = "sample.helloworld.main1"
+                entryPoint = "sample.main1"
             }
 
             executable("e2") {
-                entryPoint = "sample.helloworld.main2"
+                entryPoint = "sample.main2"
             }
         }
     }

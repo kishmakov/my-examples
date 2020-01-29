@@ -26,7 +26,6 @@ fun main1(args: Array<String>) {
     println(question("Will no one stay awake for me", args))
     println("Location: " + currentLocation())
     println("JAVA_HOME = " + getenv("JAVA_HOME")?.toKString())
-
 }
 
 fun main2(args: Array<String>) {
