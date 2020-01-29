@@ -3,7 +3,7 @@ package sample
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-class SampleTestsJvm {
+class JvmTests {
     @Test
     fun testHello() {
         assertTrue("Jacob" in hello("Jacob"))
