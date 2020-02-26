@@ -12,12 +12,4 @@ class M1Tests {
         val numbers = listOf("11", "22", "33")
         numbers.forEach { print("> $it ") }
     }
-
-    @Test
-    fun testQuestion2() {
-        val pair = Pair(1, "one")
-        val (num, name) = pair
-        assertTrue("up" in question("What's up"))
-        println("> num is $num $name")
-    }
 }

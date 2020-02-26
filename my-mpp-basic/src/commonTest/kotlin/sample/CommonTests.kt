@@ -13,4 +13,26 @@ class CommonTests {
     fun testProxy() {
         assertTrue(Proxy().proxyHello("Jack").contains("Dear"))
     }
+
+    @Test
+    fun testQuestion1() {
+        val pair = Pair(1, "one")
+        val (num, name) = pair
+        assertTrue("up" in hello("What's up"))
+        println("> num is $num $name")
+    }
+
+    fun fun1() { }
+
+    fun fun2() { }
+
+    fun call() {
+        fun1()
+        fun2()
+    }
+
+    @Test
+    fun testQuestion2() {
+        call()
+    }
 }
