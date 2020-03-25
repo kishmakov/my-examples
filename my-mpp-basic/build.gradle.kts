@@ -1,11 +1,12 @@
 plugins {
-//    kotlin("multiplatform") version "1.3.70-eap-42"
-    kotlin("multiplatform") version "1.3.61"
+    kotlin("multiplatform") version "1.3.70"
+//    kotlin("multiplatform") version "1.4-SNAPSHOT"
 }
 
 repositories {
     jcenter()
     mavenCentral()
+    mavenLocal()
     gradlePluginPortal()
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
 }
