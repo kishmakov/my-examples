@@ -9,7 +9,5 @@ class M1Tests {
         assertTrue("up" in question("What's up"))
         val words = listOf("aa", "bb", "cc")
         words.forEach { println(it) }
-        val numbers = listOf("11", "22", "33")
-        numbers.forEach { print("> $it ") }
     }
 }

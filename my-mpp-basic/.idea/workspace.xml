@@ -25,7 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="Add common code">
+    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="Update project">
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-clion-libcurl/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-clion-libcurl/.idea/gradle.xml" afterDir="false" />
@@ -35,6 +35,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/m1Test/kotlin/sample/M1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Test/kotlin/sample/M1Tests.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" afterDir="false" />
     </list>
@@ -99,10 +101,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KonanWorkspace">
-    <executables />
+  <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.4-dev-14287">
+    <executables>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
+        <target DEBUG="false" FILE="build/bin/l1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/l1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL1" />
+        <target DEBUG="false" FILE="build/bin/l1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/l1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL1" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/l2/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL2" />
+        <target DEBUG="false" FILE="build/bin/l2/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableL2" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/l2/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableL2" />
+        <target DEBUG="false" FILE="build/bin/l2/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableL2" />
+      </executable>
+      <executable TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/l2/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestL2" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/m1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableM1" />
+        <target DEBUG="false" FILE="build/bin/m1/e1ReleaseExecutable/e1.kexe" GRADLE_TASK=":linkE1ReleaseExecutableM1" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/m1/e2DebugExecutable/e2.kexe" GRADLE_TASK=":linkE2DebugExecutableM1" />
+        <target DEBUG="false" FILE="build/bin/m1/e2ReleaseExecutable/e2.kexe" GRADLE_TASK=":linkE2ReleaseExecutableM1" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/m1/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestM1" />
+      </executable>
+      <executable TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e1">
+        <target DEBUG="true" FILE="build/bin/w1/e1DebugExecutable/e1.exe" GRADLE_TASK=":linkE1DebugExecutableW1" />
+        <target DEBUG="false" FILE="build/bin/w1/e1ReleaseExecutable/e1.exe" GRADLE_TASK=":linkE1ReleaseExecutableW1" />
+      </executable>
+      <executable TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e2">
+        <target DEBUG="true" FILE="build/bin/w1/e2DebugExecutable/e2.exe" GRADLE_TASK=":linkE2DebugExecutableW1" />
+        <target DEBUG="false" FILE="build/bin/w1/e2ReleaseExecutable/e2.exe" GRADLE_TASK=":linkE2ReleaseExecutableW1" />
+      </executable>
+      <executable TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/w1/debugTest/test.exe" GRADLE_TASK=":linkDebugTestW1" />
+      </executable>
+    </executables>
   </component>
-  <component name="KotlinMultiplatform" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3.70">
+  <component name="KotlinMultiplatform" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.4-dev-14287">
     <executables>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PREFIX="my-mpp-basic:">
         <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
@@ -194,57 +241,81 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PREFIX="my-mpp-basic:" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
+    <configuration name="l1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
         <env name="Longitude" value="35.240197" />
       </envs>
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2" PREFIX="my-mpp-basic:" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
+    <configuration name="l1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e2" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
         <env name="Longitude" value="35.240197" />
       </envs>
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test" PREFIX="my-mpp-basic:" WORKING_DIR="">
-      <method v="2" />
+    <configuration name="l1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l1" BINARY="test" WORKING_DIR="">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1" PREFIX="my-mpp-basic:" WORKING_DIR="$PROJECT_DIR$">
-      <method v="2" />
+    <configuration name="l2.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e1" WORKING_DIR="$PROJECT_DIR$">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2" PREFIX="my-mpp-basic:" WORKING_DIR="$PROJECT_DIR$">
-      <method v="2" />
+    <configuration name="l2.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="e2" WORKING_DIR="$PROJECT_DIR$">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test" PREFIX="my-mpp-basic:" WORKING_DIR="">
-      <method v="2" />
+    <configuration name="l2.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="linux_x64" TARGET="l2" BINARY="test" WORKING_DIR="">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1" PREFIX="my-mpp-basic:" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
+    <configuration name="m1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e1" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
         <env name="Longitude" value="35.240197" />
       </envs>
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2" PREFIX="my-mpp-basic:" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
+    <configuration name="m1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="e2" PROGRAM_PARAMS="Peter John James" WORKING_DIR="$PROJECT_DIR$">
       <envs>
         <env name="Latitude" value="31.779402" />
         <env name="Longitude" value="35.240197" />
       </envs>
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test" PREFIX="my-mpp-basic:" WORKING_DIR="">
-      <method v="2" />
+    <configuration name="m1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="m1" BINARY="test" WORKING_DIR="">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="w1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e1" PREFIX="my-mpp-basic:" WORKING_DIR="$PROJECT_DIR$">
-      <method v="2" />
+    <configuration name="w1.e1" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e1" WORKING_DIR="$PROJECT_DIR$">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="w1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e2" PREFIX="my-mpp-basic:" WORKING_DIR="$PROJECT_DIR$">
-      <method v="2" />
+    <configuration name="w1.e2" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="e2" WORKING_DIR="$PROJECT_DIR$">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="w1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="test" PREFIX="my-mpp-basic:" WORKING_DIR="">
-      <method v="2" />
+    <configuration name="w1.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="mingw_x64" TARGET="w1" BINARY="test" WORKING_DIR="">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="M1Tests.testQuestion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -351,18 +422,6 @@
         <item itemvalue="Gradle.SampleTests.testProxy" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -499,7 +558,8 @@
       <workItem from="1585074735431" duration="8000" />
       <workItem from="1585077731339" duration="164000" />
       <workItem from="1585158211278" duration="236000" />
-      <workItem from="1585164838785" duration="231000" />
+      <workItem from="1585164838785" duration="1296000" />
+      <workItem from="1585231477189" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Add common code">
       <created>1577357211688</created>
@@ -536,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585165036462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add common code">
+      <created>1585165189559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585165189559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,20 +614,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change package" />
     <MESSAGE value="Arrange files by packages" />
     <MESSAGE value="Update Gradle version" />
-    <MESSAGE value="Add common code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add common code" />
+    <MESSAGE value="Update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="279" key="#PSD" timestamp="1584360602749">
@@ -581,49 +647,53 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2402" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577356644538" />
-    <state x="458" y="143" key="CommitChangelistDialog2" timestamp="1585165036347">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="458" y="143" key="CommitChangelistDialog2" timestamp="1585165189446">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="458" y="143" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582731937553" />
+    <state x="458" y="143" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585165189446" />
     <state x="458" y="143" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585165036347" />
     <state x="2138" y="143" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577358075673" />
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1585165176310">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585165176310" />
-    <state width="936" height="371" key="GridCell.Tab.0.bottom" timestamp="1585162024300">
+    <state x="786" y="453" key="GitRewordDialog" timestamp="1585165203518">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="786" y="453" key="GitRewordDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585165203518" />
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom" timestamp="1585167500404">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="371" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1584624975614" />
     <state width="1638" height="326" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583489430609" />
-    <state width="936" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585162024300" />
+    <state width="1878" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585167500404" />
     <state width="1878" height="350" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1585065803981" />
     <state width="1878" height="373" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939323" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413406" />
-    <state width="936" height="371" key="GridCell.Tab.0.center" timestamp="1585162024299">
+    <state width="1878" height="299" key="GridCell.Tab.0.center" timestamp="1585167500403">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="371" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1584624975613" />
     <state width="1638" height="326" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583489430608" />
-    <state width="936" height="371" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585162024299" />
+    <state width="1878" height="299" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585167500403" />
     <state width="1878" height="350" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1585065803980" />
     <state width="1878" height="373" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939321" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413405" />
-    <state width="936" height="371" key="GridCell.Tab.0.left" timestamp="1585162024299">
+    <state width="1878" height="299" key="GridCell.Tab.0.left" timestamp="1585167500403">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="371" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1584624975612" />
     <state width="1638" height="326" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583489430607" />
-    <state width="936" height="371" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585162024299" />
+    <state width="1878" height="299" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585167500403" />
     <state width="1878" height="350" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1585065803979" />
     <state width="1878" height="373" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939320" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413405" />
-    <state width="936" height="371" key="GridCell.Tab.0.right" timestamp="1585162024299">
+    <state width="1878" height="299" key="GridCell.Tab.0.right" timestamp="1585167500404">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="371" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1584624975614" />
     <state width="1638" height="326" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583489430608" />
-    <state width="936" height="371" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585162024299" />
+    <state width="1878" height="299" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585167500404" />
     <state width="1878" height="350" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1585065803980" />
     <state width="1878" height="373" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360939322" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1577360413406" />
@@ -677,20 +747,20 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="721" y="257" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585164870784" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1584362129177">
+    <state x="469" y="179" key="SettingsEditor" timestamp="1585165275356">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1584362129177" />
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585165275356" />
     <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577360758893" />
     <state width="500" height="427" key="SwitcherDM" timestamp="1583748970775">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="500" height="436" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1583518523486" />
     <state width="500" height="427" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1583748970775" />
-    <state x="560" y="281" key="Vcs.Push.Dialog.v2" timestamp="1585165175145">
+    <state x="560" y="281" key="Vcs.Push.Dialog.v2" timestamp="1585165207087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585165175145" />
+    <state x="560" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585165207087" />
     <state x="2240" y="281" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1577357708561" />
     <state x="2303" y="304" width="824" height="538" key="find.popup" timestamp="1577357694848">
       <screen x="1680" y="0" width="1920" height="1080" />
