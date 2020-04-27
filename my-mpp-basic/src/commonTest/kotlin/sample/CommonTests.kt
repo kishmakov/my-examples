@@ -3,6 +3,8 @@ package sample
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
+fun testMap(): AbstractMutableMap<String, String> = TODO()
+
 class CommonTests {
     @Test
     fun testMe() {

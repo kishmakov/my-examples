@@ -49,18 +49,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="Update project">
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios-swift-app/ios-swift-app.xcodeproj/project.xcworkspace/xcuserdata/kirill.shmakov.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-clion-libcurl/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-clion-libcurl/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-clion-libcurl/.idea/modules/org.jetbrains.kotlin.sample.native.my-clion-libcurl.libcurlMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-clion-libcurl/.idea/modules/org.jetbrains.kotlin.sample.native.my-clion-libcurl.libcurlMain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-clion-libcurl/.idea/modules/org.jetbrains.kotlin.sample.native.my-clion-libcurl.libcurlTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-clion-libcurl/.idea/modules/org.jetbrains.kotlin.sample.native.my-clion-libcurl.libcurlTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-clion-libcurl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-clion-libcurl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/sample/M1Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Main/kotlin/sample/M1Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Test/kotlin/sample/M1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/m1Test/kotlin/sample/M1Tests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../uikit/konan.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/sample/CommonTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/sample/CommonTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +70,6 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="KonanExecutionTarget:m1.e1:Debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -111,6 +101,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -162,7 +157,7 @@
       </executable>
     </executables>
   </component>
-  <component name="KotlinMultiplatform" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3.70">
+  <component name="KotlinMultiplatform" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.4-dev-14287">
     <executables>
       <executable TARGET_TYPE="linux_x64" TARGET="l1" BINARY="e1" PREFIX="my-mpp-basic:">
         <target DEBUG="true" FILE="build/bin/l1/e1DebugExecutable/e1.kexe" GRADLE_TASK=":linkE1DebugExecutableL1" />
@@ -246,7 +241,7 @@
     <option name="AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.m1.e1">
+  <component name="RunManager" selected="Gradle.M1Tests.testQuestion">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -584,6 +579,33 @@
       <workItem from="1586268846459" duration="598000" />
       <workItem from="1586269760495" duration="186000" />
       <workItem from="1586270465561" duration="134000" />
+      <workItem from="1586273568298" duration="1220000" />
+      <workItem from="1586279132583" duration="1507000" />
+      <workItem from="1586288823248" duration="71000" />
+      <workItem from="1586329393824" duration="806000" />
+      <workItem from="1586362311328" duration="25000" />
+      <workItem from="1586364585187" duration="42000" />
+      <workItem from="1586418707541" duration="7000" />
+      <workItem from="1586418918711" duration="21000" />
+      <workItem from="1586419059429" duration="9000" />
+      <workItem from="1586419891965" duration="7000" />
+      <workItem from="1586420256697" duration="51000" />
+      <workItem from="1586420530584" duration="358000" />
+      <workItem from="1586421427639" duration="8000" />
+      <workItem from="1586421541608" duration="80000" />
+      <workItem from="1586422847940" duration="651000" />
+      <workItem from="1586425127438" duration="246000" />
+      <workItem from="1586426558259" duration="156000" />
+      <workItem from="1586446232687" duration="13000" />
+      <workItem from="1586463778504" duration="20000" />
+      <workItem from="1586782002589" duration="57000" />
+      <workItem from="1586782142178" duration="70000" />
+      <workItem from="1586784254046" duration="21000" />
+      <workItem from="1586784482969" duration="95000" />
+      <workItem from="1586785470874" duration="8000" />
+      <workItem from="1586785596660" duration="6000" />
+      <workItem from="1587722118316" duration="152000" />
+      <workItem from="1587722803130" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="Add common code">
       <created>1577357211688</created>
@@ -658,6 +680,7 @@
     <MESSAGE value="Arrange files by packages" />
     <MESSAGE value="Update Gradle version" />
     <MESSAGE value="Update project" />
+    <MESSAGE value="Update state of mpp basic" />
     <option name="LAST_COMMIT_MESSAGE" value="Update project" />
   </component>
   <component name="WindowStateProjectService">
@@ -678,14 +701,14 @@
     </state>
     <state x="458" y="143" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585231551927" />
     <state x="458" y="143" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1585165036347" />
-    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1586273713100">
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1587998291352">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586273713100" />
-    <state x="786" y="453" key="GitRewordDialog" timestamp="1585165203518">
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587998291352" />
+    <state x="786" y="453" key="GitRewordDialog" timestamp="1586273891611">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="786" y="453" key="GitRewordDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585165203518" />
+    <state x="786" y="453" key="GitRewordDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586273891611" />
     <state width="1878" height="298" key="GridCell.Tab.0.bottom" timestamp="1586270694850">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -752,10 +775,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="721" y="257" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586273733096" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1585232215790">
+    <state x="469" y="179" key="SettingsEditor" timestamp="1586446208407">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585232215790" />
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586446208407" />
     <state width="500" height="436" key="SwitcherDM" timestamp="1585234931128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -765,10 +788,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585231556129" />
-    <state x="752" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586273712328">
+    <state x="752" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587998238456">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="752" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586273712328" />
+    <state x="752" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587998238456" />
+    <state x="510" y="284" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586777796002">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="510" y="284" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1920.1057@0.23.1920.1057" timestamp="1586777796002" />
+    <state x="623" y="304" width="673" height="472" key="find.popup" timestamp="1586273894189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="304" width="673" height="472" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586273894189" />
     <state x="625" y="255" key="run.anything.popup" timestamp="1584365592669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -792,7 +823,7 @@
           <line>10</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
+        <line-breakpoint enabled="true" log-message="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/m1Test/kotlin/sample/M1Tests.kt</url>
           <line>11</line>
           <option name="timeStamp" value="13" />
