@@ -2,7 +2,7 @@
   <artifact type="jar" name="my-mpp-basic-jvm">
     <output-path>$PROJECT_DIR$/build/libs</output-path>
     <root id="archive" name="my-mpp-basic-jvm.jar">
-      <element id="module-output" name="my-mpp-basic_jvmMain" />
+      <element id="module-output" name="my-mpp-basic.jvmMain" />
     </root>
   </artifact>
 </component>
