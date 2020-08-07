@@ -7,7 +7,7 @@ actual class Sample actual constructor() {
 fun bye(): String = "Bye, Kotlin/Native!"
 
 fun main1() {
-    println(hello())
+    println(hello("Ivan"))
     for (i in 0..2) {
         println(">>>")
     }
@@ -15,7 +15,7 @@ fun main1() {
 }
 
 fun main2() {
-    println(hello())
+    println(hello("John"))
     for (i in 0..2) {
         println("...")
     }

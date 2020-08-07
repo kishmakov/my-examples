@@ -23,21 +23,10 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="Update project">
+    <list default="true" id="535fcb3c-be2a-4339-8c79-5ce0c3dfd1fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/sample/CommonMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/sample/commonMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/sample/CommonTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/sample/commonTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmMain/kotlin/sample/JvmMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/sample/jvm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/jvmTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Main/kotlin/sample/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux1Main/kotlin/sample/linux1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l1Test/kotlin/sample/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux1Test/kotlin/sample/linux1Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l2Main/kotlin/sample/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux2Main/kotlin/sample/linux2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l2Test/kotlin/sample/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux2Test/kotlin/sample/linux2Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Main/kotlin/sample/M1Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/m1Test/kotlin/sample/M1Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Test/kotlin/sample/macos1Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w1Main/kotlin/sample/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/win1Main/kotlin/sample/win1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w1Test/kotlin/sample/HelloTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/win1Test/kotlin/sample/win1Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/sample/commonMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/sample/common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linux2Main/kotlin/sample/linux2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux2Main/kotlin/sample/linux2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -534,7 +523,7 @@
       <workItem from="1594678992948" duration="169000" />
       <workItem from="1596032435154" duration="351000" />
       <workItem from="1596795680417" duration="202000" />
-      <workItem from="1596795894486" duration="2125000" />
+      <workItem from="1596795894486" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="Add common code">
       <created>1577357211688</created>
@@ -578,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585165189559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Expand source sets names">
+      <created>1596800196400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596800196400</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +598,8 @@
     <MESSAGE value="Arrange files by packages" />
     <MESSAGE value="Update Gradle version" />
     <MESSAGE value="Update project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project" />
+    <MESSAGE value="Expand source sets names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expand source sets names" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="252" width="753" height="572" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596800000889">
@@ -614,6 +611,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="785" y="453" width="421" height="336" key="#com.intellij.ide.actions.DebugLogConfigureAction/72.27.1848.1053@72.27.1848.1053" timestamp="1594655755252" />
+    <state x="450" y="130" width="1088" height="859" key="CommitChangelistDialog2" timestamp="1596800196087">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="450" y="130" width="1088" height="859" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1596800196087" />
     <state x="337" y="239" width="3312" height="1717" key="DiffContextDialog" timestamp="1590592121113">
       <screen x="144" y="54" width="3696" height="2106" />
     </state>
@@ -676,6 +677,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="708" height="446" key="SwitcherDM/72.27.1848.1053@72.27.1848.1053" timestamp="1596796119925" />
+    <state x="594" y="285" width="800" height="540" key="Vcs.Push.Dialog.v2" timestamp="1596800337851">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="594" y="285" width="800" height="540" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596800337851" />
     <state x="1208" y="721" key="com.intellij.ide.util.TipDialog" timestamp="1590593068376">
       <screen x="144" y="54" width="3696" height="2106" />
     </state>
@@ -698,12 +703,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/commonMain/kotlin/sample/commonMain.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/commonMain/kotlin/sample/commonMain.kt</url>
+          <url>file://$PROJECT_DIR$/src/commonMain/kotlin/sample/common.kt</url>
           <line>14</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
