@@ -3,7 +3,7 @@ package sample
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-class SampleTestsLinux2 {
+class Linux2Test {
     @Test
     fun testHello() {
         assertTrue("Hello" in hello())

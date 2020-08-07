@@ -3,9 +3,9 @@ package sample
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-class JvmTests {
+class Win1Test {
     @Test
     fun testHello() {
-        assertTrue("Jacob" in hello("Jacob"))
+        assertTrue("John" in greet("John"))
     }
 }

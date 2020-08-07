@@ -42,7 +42,7 @@ kotlin {
     jvm("jvm") {
     }
 
-    macosX64("m1") {
+    macosX64("macos1") {
         binaries {
             executable("e1") {
                 entryPoint = "sample.main1"
@@ -64,7 +64,7 @@ kotlin {
         }
     }
 
-    mingwX64("w1") {
+    mingwX64("win1") {
         binaries {
             executable("e1") {
                 entryPoint = "sample.main1"
@@ -76,7 +76,7 @@ kotlin {
         }
     }
 
-    linuxX64("l1") {
+    linuxX64("linux1") {
         binaries {
             executable("e1") {
                 entryPoint = "sample.main1"
@@ -98,7 +98,7 @@ kotlin {
         }
     }
 
-    linuxX64("l2") {
+    linuxX64("linux2") {
         binaries {
             executable("e1") {
                 entryPoint = "sample.main1"

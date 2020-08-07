@@ -3,7 +3,7 @@ package sample
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-class CommonTests {
+class CommonTest {
     @Test
     fun testMe() {
         assertTrue(Sample().checkMe() > 0)
