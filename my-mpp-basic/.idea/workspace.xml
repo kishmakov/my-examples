@@ -3,42 +3,11 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:kishmakov" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:kishmakov" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc8e01df-7f9f-4b0c-9620-aa619731ff0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,90 +19,21 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="run" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-1.4">
     <allAvailableExecutables>
-      <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+      <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux2" file="build/bin/linux2/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
               <environmentVariables />
             </params>
           </variant>
-        </variants>
-      </executable>
-      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
-            <params workingDirectory="" programParameters="">
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux2" file="build/bin/linux2/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
               <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
             </params>
           </variant>
         </variants>
@@ -147,6 +47,15 @@
           </variant>
           <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux2" file="build/bin/linux2/e1ReleaseExecutable/e1.kexe">
             <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
           </variant>
@@ -175,16 +84,62 @@
           </variant>
         </variants>
       </executable>
-      <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
         <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux2" file="build/bin/linux2/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
+            <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
           </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux2" file="build/bin/linux2/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
               <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
             </params>
           </variant>
         </variants>
@@ -217,32 +172,9 @@
           </variant>
         </variants>
       </executable>
-      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
     </allAvailableExecutables>
   </component>
-  <component name="ProjectId" id="1fxNfMtxYw4b91kGwKmqlyPC9wO" />
+  <component name="ProjectId" id="1gx96Ih59l66vLrAkSa58zlIVxd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -250,46 +182,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Gradle.my-mpp-basic [runE1DebugExecutableMacos1]">
+  <component name="RunManager" selected="Kotlin/Native Application.e1[macos1]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" passPaternalEnvs="true">
-      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
-        <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-          <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-        </params>
-      </variant>
-      <environmentVariables />
-      <method v="2" />
     </configuration>
     <configuration name="e1[linux1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="Peter John James">
       <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
@@ -312,7 +212,9 @@
         </params>
       </variant>
       <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e1[linux2]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="">
       <executable target="linux_x64" targetName="linux2" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
@@ -335,7 +237,9 @@
         </params>
       </variant>
       <environmentVariables />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e1[macos1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="Peter John James">
       <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
@@ -358,7 +262,9 @@
         </params>
       </variant>
       <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e1[win1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="">
       <executable target="mingw_x64" targetName="win1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
@@ -381,7 +287,9 @@
         </params>
       </variant>
       <environmentVariables />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e2[linux1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="Peter John James">
       <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
@@ -404,7 +312,9 @@
         </params>
       </variant>
       <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e2[linux2]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="">
       <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
@@ -427,7 +337,9 @@
         </params>
       </variant>
       <environmentVariables />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e2[macos1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="Peter John James">
       <executable target="macos_x64" targetName="macos1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
@@ -450,7 +362,9 @@
         </params>
       </variant>
       <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="e2[win1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="">
       <executable target="mingw_x64" targetName="win1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
@@ -473,248 +387,28 @@
         </params>
       </variant>
       <environmentVariables />
-      <method v="2" />
+      <method v="2">
+        <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="my-mpp-basic [macos1Test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="macos1Test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="my-mpp-basic [runE1DebugExecutableMacos1]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runE1DebugExecutableMacos1" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableMacos1]" />
-      <item itemvalue="Gradle.my-mpp-basic [macos1Test]" />
-      <item itemvalue="Kotlin/Native Application.e1[linux1]" />
-      <item itemvalue="Kotlin/Native Application.e1[linux2]" />
-      <item itemvalue="Kotlin/Native Application.e1[macos1]" />
-      <item itemvalue="Kotlin/Native Application.e1[win1]" />
-      <item itemvalue="Kotlin/Native Application.e2[linux1]" />
-      <item itemvalue="Kotlin/Native Application.e2[linux2]" />
-      <item itemvalue="Kotlin/Native Application.e2[macos1]" />
-      <item itemvalue="Kotlin/Native Application.e2[win1]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.my-mpp-basic [runE1DebugExecutableMacos1]" />
-        <item itemvalue="Gradle.my-mpp-basic [macos1Test]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc8e01df-7f9f-4b0c-9620-aa619731ff0a" name="Default Changelist" comment="" />
-      <created>1597155885116</created>
+      <changelist id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="" />
+      <created>1599045199482</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597155885116</updated>
-      <workItem from="1597155890527" duration="648000" />
-      <workItem from="1597158334020" duration="527000" />
-      <workItem from="1597158906205" duration="136000" />
-      <workItem from="1597241637631" duration="419000" />
-      <workItem from="1597242508836" duration="337000" />
-      <workItem from="1597255288999" duration="97000" />
-      <workItem from="1597325059755" duration="125000" />
-      <workItem from="1597327343682" duration="180000" />
-      <workItem from="1597329027960" duration="81000" />
-      <workItem from="1597330072392" duration="244000" />
-      <workItem from="1597392698027" duration="454000" />
-      <workItem from="1597394481508" duration="210000" />
-      <workItem from="1597395974928" duration="117000" />
-      <workItem from="1597397483044" duration="189000" />
-      <workItem from="1597405032228" duration="136000" />
-      <workItem from="1597405542902" duration="92000" />
-      <workItem from="1597410511701" duration="95000" />
-      <workItem from="1597410802147" duration="136000" />
-      <workItem from="1597411405610" duration="191000" />
-      <workItem from="1597412510006" duration="367000" />
-      <workItem from="1597422308500" duration="87000" />
-      <workItem from="1597927177321" duration="440000" />
-      <workItem from="1597993736161" duration="421000" />
-      <workItem from="1597998746032" duration="679000" />
-      <workItem from="1598011963154" duration="380000" />
-      <workItem from="1598102875990" duration="578000" />
+      <updated>1599045199482</updated>
     </task>
-    <task id="LOCAL-00001" summary="Update Kotlin Gradle plugin">
-      <created>1597994583002</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1597994583002</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Kotlin Gradle plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Kotlin Gradle plugin" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="283" width="637" height="694" key="#:macos1Test" timestamp="1597231014649">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599045205236">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="657" y="283" width="637" height="694" key="#:macos1Test/0.0.1920.1080@0.0.1920.1080" timestamp="1597231014649" />
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598275782430">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598275782430" />
-    <state x="768" y="390" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1597998927619">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="768" y="390" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1920.1080@0.0.1920.1080" timestamp="1597998927619" />
-    <state x="546" y="117" key="CommitChangelistDialog2" timestamp="1597994582829">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="546" y="117" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1597994582829" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1598360786262">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153609" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786262" />
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254790" />
-    <state width="1878" height="332" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552921" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1598360786261">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153608" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786261" />
-    <state width="1638" height="364" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254789" />
-    <state width="1878" height="332" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552920" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1598360786261">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153607" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786261" />
-    <state width="1638" height="364" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254788" />
-    <state width="1878" height="332" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552919" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1598360786262">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153608" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786262" />
-    <state width="1638" height="364" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254790" />
-    <state width="1878" height="332" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552920" />
-    <state width="1878" height="304" key="GridCell.Tab.1.bottom" timestamp="1598360786263">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153610" />
-    <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786263" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254801" />
-    <state width="1878" height="332" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552923" />
-    <state width="1878" height="304" key="GridCell.Tab.1.center" timestamp="1598360786263">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153609" />
-    <state width="1878" height="304" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786262" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254799" />
-    <state width="1878" height="332" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552922" />
-    <state width="1878" height="304" key="GridCell.Tab.1.left" timestamp="1598360786262">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153609" />
-    <state width="1878" height="304" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786262" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254795" />
-    <state width="1878" height="332" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552921" />
-    <state width="1878" height="304" key="GridCell.Tab.1.right" timestamp="1598360786263">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1638" height="321" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598107153610" />
-    <state width="1878" height="304" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598360786263" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597330254800" />
-    <state width="1878" height="332" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1598018552922" />
-    <state x="151" y="170" key="SettingsEditor" timestamp="1598105043312">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="151" y="170" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1598105043312" />
-    <state x="173" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597996508300" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1597996489731">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1597996489731" />
-    <state x="541" y="291" width="598" height="490" key="find.popup" timestamp="1597328247778">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="541" y="291" width="598" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597328247778" />
-    <state x="456" y="225" key="new project wizard" timestamp="1597927339016">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="456" y="225" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1597927339016" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1597996540294">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1597996540294" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1597996524930" />
-    <state x="690" y="459" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597393292008">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="690" y="459" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597393292008" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt</url>
-          <line>12</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_mpp_basic$my_mpp_basic__macos1Test_.ic" NAME="my-mpp-basic [macos1Test] Coverage Results" MODIFIED="1598256011962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599045205236" />
   </component>
 </project>
