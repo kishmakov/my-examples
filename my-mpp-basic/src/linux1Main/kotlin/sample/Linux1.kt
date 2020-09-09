@@ -3,19 +3,15 @@ package sample
 import kotlinx.cinterop.*
 import platform.posix.*
 
-actual class Sample actual constructor() {
-    actual fun checkMe(): Int = 239
+actual class Common actual constructor() {
+    actual fun getCode(): Int = 239
 }
 
-fun question(subject: String, names: Array<String> = emptyArray()): String {
-    return buildString {
-        append("$subject?")
-        for (name in names)
-            append(" $name?!")
-    }
+actual object Platform {
+    actual val name: String = "Linux1"
 }
 
-fun currentLocation(): String {
+actual fun currentLocation(): String {
     val nowhere = "nowhere"
     val lon = getenv("Latitude")?.toKString() ?: return nowhere
     val lat = getenv("Longitude")?.toKString() ?: return nowhere
@@ -36,8 +32,4 @@ fun main1(args: Array<String>) {
 fun main2(args: Array<String>) {
     println(question("Will none of you wait for me", args))
     println("Location: " + currentLocation())
-}
-
-actual object Platform {
-    actual val name: String = "Linux1"
 }

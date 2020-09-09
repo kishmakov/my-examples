@@ -6,8 +6,11 @@ import kotlin.test.assertTrue
 class Macos1Test {
     @Test
     fun testQuestion() {
-        assertTrue("up" in question("What's up"))
-        val words = listOf("aa", "bb", "cc")
+        val what = question("What's up")
+
+        assertTrue("up" in what)
+
+        val words = listOf(what, currentLocation())
         words.forEach { println(it) }
     }
 }

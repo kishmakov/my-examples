@@ -1,8 +1,14 @@
 package sample
 
-actual class Sample actual constructor() {
-    actual fun checkMe(): Int = 57
+actual class Common actual constructor() {
+    actual fun getCode(): Int = 57
 }
+
+actual object Platform {
+    actual val name: String = "Windows"
+}
+
+actual fun currentLocation(): String = "nowhere"
 
 fun greet(name: String): String {
     return "Hello, $name!"
@@ -16,8 +22,4 @@ fun main1(args: Array<String>) {
 
 fun main2() {
     println(greet("James Smith"))
-}
-
-actual object Platform {
-    actual val name: String = "Windows"
 }

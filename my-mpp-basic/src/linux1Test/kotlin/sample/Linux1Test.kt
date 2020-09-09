@@ -6,6 +6,11 @@ import kotlin.test.assertTrue
 class Linux1Test {
     @Test
     fun testHello() {
-        assertTrue("up" in question("What's up"))
+        val what = question("What's up")
+
+        assertTrue("up" in what)
+
+        val words = listOf(what, currentLocation())
+        words.forEach { println(it) }
     }
 }

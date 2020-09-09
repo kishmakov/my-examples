@@ -1,8 +1,14 @@
 package sample
 
-actual class Sample actual constructor() {
-    actual fun checkMe(): Int = 566
+actual class Common actual constructor() {
+    actual fun getCode(): Int = 566
 }
+
+actual object Platform {
+    actual val name: String = "Linux2"
+}
+
+actual fun currentLocation(): String = "nowhere"
 
 fun bye(): String = "Bye, Kotlin/Native!"
 
@@ -20,8 +26,4 @@ fun main2() {
         println("...")
     }
     println(bye())
-}
-
-actual object Platform {
-    actual val name: String = "Linux2"
 }

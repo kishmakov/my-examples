@@ -6,7 +6,7 @@ import kotlin.test.assertTrue
 class CommonTest {
     @Test
     fun testMe() {
-        assertTrue(Sample().checkMe() > 0)
+        assertTrue(Common().getCode() > 0)
     }
 
     @Test
