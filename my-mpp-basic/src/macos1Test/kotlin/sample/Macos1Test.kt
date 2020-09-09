@@ -3,7 +3,7 @@ package sample
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-class macos1Test {
+class Macos1Test {
     @Test
     fun testQuestion() {
         assertTrue("up" in question("What's up"))
