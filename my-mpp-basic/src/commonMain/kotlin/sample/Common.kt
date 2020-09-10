@@ -30,7 +30,3 @@ fun hello(person: String): String {
 class Proxy {
     fun proxyHello(person: String) = hello(person)
 }
-
-fun main() {
-    println(hello("John"))
-}

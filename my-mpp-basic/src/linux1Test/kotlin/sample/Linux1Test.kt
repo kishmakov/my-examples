@@ -5,12 +5,17 @@ import kotlin.test.assertTrue
 
 class Linux1Test {
     @Test
-    fun testHello() {
-        val what = question("What's up")
+    fun testWhat() {
+        val location = currentLocation()
+        val what = question("What's up here at $location")
 
         assertTrue("up" in what)
+    }
 
-        val words = listOf(what, currentLocation())
-        words.forEach { println(it) }
+    @Test
+    fun testHow() {
+        val how = question("How are you?", arrayOf("Jim", "Bob"))
+
+        assertTrue("are" in how)
     }
 }
