@@ -3,11 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:kishmakov" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="">
+    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="Advance versions.">
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/macos1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,42 +45,64 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
-  <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-1.4">
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="no-locals" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-1.4.20">
     <allAvailableExecutables>
-      <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
         <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux2" file="build/bin/linux2/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
             </params>
           </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux2" file="build/bin/linux2/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
             </params>
           </variant>
         </variants>
       </executable>
-      <executable target="linux_x64" targetName="linux2" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux2" file="build/bin/linux2/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux2" file="build/bin/linux2/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
@@ -69,75 +117,6 @@
             </params>
           </variant>
           <variant name="Release" gradleTask=":linkE2ReleaseExecutableMacos1" file="build/bin/macos1/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux1" file="build/bin/linux1/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
             <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
               <environmentVariables Latitude="31.779402" Longitude="35.240197" />
             </params>
@@ -172,9 +151,95 @@
           </variant>
         </variants>
       </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux2" file="build/bin/linux2/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux2" file="build/bin/linux2/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux2" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux2" file="build/bin/linux2/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux2" file="build/bin/linux2/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestLinux1" file="build/bin/linux1/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
     </allAvailableExecutables>
   </component>
   <component name="ProjectId" id="1gx96Ih59l66vLrAkSa58zlIVxd" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -182,14 +247,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Kotlin/Native Application.e1[macos1]">
+  <component name="RunManager" selected="Gradle.Macos1Test">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Some" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$/../.." passPaternalEnvs="true" parameters="a b c">
+      <environmentVariables />
+      <method v="2" />
     </configuration>
     <configuration name="e1[linux1]" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="Peter John James">
       <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
@@ -391,7 +481,142 @@
         <option name="com.jetbrains.mpp.runconfig.BinaryBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;sample.CommonTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanJvmTest" />
+            <option value="jvmTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Macos1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;sample.Macos1Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanMacos1Test" />
+            <option value="macos1Test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Macos1Test.testWhat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;sample.Macos1Test.testWhat&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanMacos1Test" />
+            <option value="macos1Test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-mpp-basic [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-mpp-basic [cleanAllTests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="cleanAllTests" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Macos1Test.testWhat" />
+      <item itemvalue="Gradle.my-mpp-basic [check]" />
+      <item itemvalue="Gradle.my-mpp-basic [cleanAllTests]" />
+      <item itemvalue="Gradle.CommonTest" />
+      <item itemvalue="Gradle.Macos1Test" />
+      <item itemvalue="Kotlin/Native Application.Some" />
+      <item itemvalue="Kotlin/Native Application.e2[linux1]" />
+      <item itemvalue="Kotlin/Native Application.e1[linux1]" />
+      <item itemvalue="Kotlin/Native Application.e2[linux2]" />
+      <item itemvalue="Kotlin/Native Application.e1[linux2]" />
+      <item itemvalue="Kotlin/Native Application.e2[macos1]" />
+      <item itemvalue="Kotlin/Native Application.e1[macos1]" />
+      <item itemvalue="Kotlin/Native Application.e1[win1]" />
+      <item itemvalue="Kotlin/Native Application.e2[win1]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Macos1Test" />
+        <item itemvalue="Gradle.CommonTest" />
+        <item itemvalue="Gradle.Macos1Test" />
+        <item itemvalue="Gradle.Macos1Test" />
+        <item itemvalue="Gradle.my-mpp-basic [check]" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -402,13 +627,175 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599045199482</updated>
+      <workItem from="1599746878739" duration="419000" />
+      <workItem from="1599748995524" duration="1450000" />
+      <workItem from="1599813020217" duration="380000" />
+      <workItem from="1599817556786" duration="363000" />
+      <workItem from="1600077802238" duration="62000" />
+      <workItem from="1600089790087" duration="62000" />
+      <workItem from="1600090188869" duration="110000" />
+      <workItem from="1600091203329" duration="16000" />
+      <workItem from="1600091717952" duration="15000" />
+      <workItem from="1600091748565" duration="180000" />
+      <workItem from="1600093340232" duration="251000" />
+      <workItem from="1600164573186" duration="205000" />
+      <workItem from="1600245626962" duration="230000" />
+      <workItem from="1600245870573" duration="1046000" />
+      <workItem from="1600253147959" duration="188000" />
+      <workItem from="1600258168366" duration="540000" />
+      <workItem from="1601471923056" duration="8000" />
+      <workItem from="1601471983202" duration="388000" />
+      <workItem from="1601473422562" duration="83000" />
+      <workItem from="1601473524848" duration="221000" />
+      <workItem from="1601473815216" duration="172000" />
+      <workItem from="1601474006490" duration="196000" />
+      <workItem from="1601474853343" duration="115000" />
+      <workItem from="1601565992734" duration="59000" />
+      <workItem from="1601566067833" duration="91000" />
+      <workItem from="1601566193019" duration="87000" />
+      <workItem from="1601566337886" duration="136000" />
+      <workItem from="1601566539094" duration="32000" />
+      <workItem from="1601566619725" duration="66000" />
+      <workItem from="1601566713252" duration="239000" />
+      <workItem from="1601566963508" duration="73000" />
+      <workItem from="1601567055900" duration="18000" />
+      <workItem from="1601642665206" duration="193000" />
+      <workItem from="1601642873096" duration="47000" />
+      <workItem from="1601649573005" duration="645000" />
+      <workItem from="1601652690375" duration="135000" />
+      <workItem from="1601653002621" duration="85000" />
+      <workItem from="1601653220157" duration="109000" />
+      <workItem from="1601653556716" duration="611000" />
+      <workItem from="1601654717737" duration="48000" />
+      <workItem from="1601655296924" duration="151000" />
+      <workItem from="1601655589172" duration="45000" />
+      <workItem from="1601655794496" duration="527000" />
+      <workItem from="1601883918516" duration="23000" />
+      <workItem from="1601884558277" duration="189000" />
+      <workItem from="1601886169750" duration="14000" />
+      <workItem from="1601886229698" duration="23000" />
+      <workItem from="1601886324640" duration="307000" />
+      <workItem from="1601888536395" duration="26000" />
+      <workItem from="1601888573374" duration="35000" />
+      <workItem from="1601888639094" duration="18000" />
+      <workItem from="1601888668452" duration="113000" />
+      <workItem from="1601889278799" duration="77000" />
+      <workItem from="1601889379989" duration="93000" />
+      <workItem from="1601889585714" duration="127000" />
+      <workItem from="1601889818370" duration="221000" />
+      <workItem from="1601890432305" duration="169000" />
+      <workItem from="1601890684577" duration="275000" />
+      <workItem from="1601891210937" duration="15000" />
+      <workItem from="1601891333044" duration="38000" />
+      <workItem from="1601891386611" duration="90000" />
+      <workItem from="1601891819708" duration="66000" />
+      <workItem from="1601891921202" duration="240000" />
+      <workItem from="1601893126751" duration="62000" />
+      <workItem from="1601893200719" duration="110000" />
+      <workItem from="1601893381800" duration="29000" />
+      <workItem from="1601893491076" duration="43000" />
+      <workItem from="1601893558521" duration="53000" />
+      <workItem from="1601893817858" duration="232000" />
+      <workItem from="1601894179796" duration="27000" />
+      <workItem from="1601894413284" duration="49000" />
+      <workItem from="1601894529126" duration="171000" />
+      <workItem from="1601894810393" duration="12000" />
+      <workItem from="1601894833584" duration="104000" />
+      <workItem from="1601912018306" duration="160000" />
+      <workItem from="1601983368988" duration="622000" />
+      <workItem from="1601986931670" duration="5000" />
+      <workItem from="1601994431107" duration="535000" />
+      <workItem from="1601995610825" duration="390000" />
+      <workItem from="1602002421272" duration="199000" />
+      <workItem from="1602002658744" duration="61000" />
+      <workItem from="1602002804334" duration="303000" />
+      <workItem from="1602009522100" duration="26000" />
+      <workItem from="1602009557770" duration="179000" />
+      <workItem from="1602009772877" duration="2000" />
+      <workItem from="1602009786493" duration="215000" />
+      <workItem from="1602055819316" duration="24000" />
+      <workItem from="1602067151832" duration="115000" />
+      <workItem from="1602067370521" duration="45000" />
+      <workItem from="1602067424631" duration="189000" />
+      <workItem from="1602067695697" duration="31000" />
+      <workItem from="1602073334213" duration="482000" />
+      <workItem from="1602254272291" duration="3180000" />
+      <workItem from="1602504847522" duration="366000" />
+      <workItem from="1602513376316" duration="4000" />
+      <workItem from="1602520007849" duration="420000" />
+      <workItem from="1602520887214" duration="83000" />
+      <workItem from="1602575363852" duration="438000" />
+      <workItem from="1602746769054" duration="386000" />
+      <workItem from="1603213121139" duration="212000" />
+      <workItem from="1603450762277" duration="1009000" />
+      <workItem from="1603697874483" duration="292000" />
+      <workItem from="1603700782186" duration="43000" />
+      <workItem from="1603784122772" duration="1058000" />
+      <workItem from="1603789609433" duration="24000" />
+      <workItem from="1603789643601" duration="648000" />
+      <workItem from="1603790316650" duration="673000" />
+      <workItem from="1603798815488" duration="5000" />
+      <workItem from="1603798882012" duration="42000" />
+      <workItem from="1603799049895" duration="75000" />
+      <workItem from="1603799302008" duration="4000" />
+      <workItem from="1603799809554" duration="4000" />
+      <workItem from="1603800001501" duration="5000" />
+      <workItem from="1603806776140" duration="564000" />
+      <workItem from="1603808273142" duration="423000" />
+      <workItem from="1603808922189" duration="1166000" />
+      <workItem from="1603811775530" duration="718000" />
+      <workItem from="1603813247830" duration="280000" />
+      <workItem from="1606463796665" duration="318000" />
     </task>
+    <task id="LOCAL-00001" summary="Advance versions">
+      <created>1603450960811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603450960811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599045205236">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599045205236" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Advance versions." />
+    <MESSAGE value="Advance versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advance versions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
