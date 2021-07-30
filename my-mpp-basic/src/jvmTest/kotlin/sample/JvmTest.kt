@@ -21,7 +21,10 @@ class JvmTest {
 
         val a1 = ask1()
         val a2 = ask2()
+        val names = listOf<String>("first", "second", "third")
+        val couple = (a1 to a2) to ("first" to "second")
 
         assertEquals(a1, a2)
+        assertTrue { names.isNotEmpty() }
     }
 }

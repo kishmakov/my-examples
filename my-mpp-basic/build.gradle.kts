@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.4.20"
+    kotlin("multiplatform") version "1.5.30-RC-238"
 }
 
 repositories {
@@ -8,6 +8,7 @@ repositories {
     mavenLocal()
     gradlePluginPortal()
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
 }
 
 kotlin {

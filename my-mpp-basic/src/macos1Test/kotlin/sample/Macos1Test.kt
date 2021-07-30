@@ -20,20 +20,26 @@ class Macos1Test {
         val location = currentLocation()
         val what = question("What's up here at $location")
 
+        val NNN = 10
+
+        for (i in 0..NNN) {
+            for (j in 0..NNN) {
+                for (k in 0..NNN) {
+                    val a1 = ask1()
+                    val a2 = ask2()
+                    assertEquals(a1, a2, "Check strings")
+                }
+            }
+        }
+
         val pair = Pair(location, what)
-
-        assertTrue("up" in what)
-
-        val a1 = ask1()
-        val a2 = ask2()
-
-        assertEquals(a1, a2)
+        assertTrue("up" in pair.toString())
     }
 
     @Test
     fun testHow() {
         val how = question("How are you?", arrayOf("Jim", "Bob"))
 
-        assertTrue("are2" in how)
+        assertTrue("are" in how)
     }
 }
