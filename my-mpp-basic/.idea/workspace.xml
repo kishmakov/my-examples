@@ -33,22 +33,7 @@
     <option name="USE_IDEA_PROXY_SETTINGS" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="Update versions">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/Macos1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Main/kotlin/sample/Macos1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt" afterDir="false" />
-    </list>
+    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1171,7 +1156,7 @@
       <workItem from="1625132714044" duration="1067000" />
       <workItem from="1625135720097" duration="67000" />
       <workItem from="1627477235942" duration="1498000" />
-      <workItem from="1627650512371" duration="5000" />
+      <workItem from="1627650512371" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Advance versions">
       <created>1603450960811</created>
@@ -1194,7 +1179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606464356359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update to Kotlin 1.5.30-RC">
+      <created>1627650612766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627650612766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1217,7 +1209,8 @@
     <MESSAGE value="Advance versions" />
     <MESSAGE value="Enrich tests for debugging testing" />
     <MESSAGE value="Update versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update versions" />
+    <MESSAGE value="Update to Kotlin 1.5.30-RC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to Kotlin 1.5.30-RC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
