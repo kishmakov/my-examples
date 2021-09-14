@@ -8,11 +8,23 @@ expect object Platform {
     val name: String
 }
 
+fun checkNames(names: Array<String>) {
+    if (names.isNotEmpty()) {
+        throw Error("Jude")
+    }
+}
+
 fun question(subject: String, names: Array<String> = emptyArray()): String {
     return buildString {
         append("$subject?")
         for (name in names) {
             append(" $name?")
+        }
+
+        try {
+            checkNames(names)
+        } catch (e: Error) {
+            append(" ${e.message}?")
         }
     }
 }

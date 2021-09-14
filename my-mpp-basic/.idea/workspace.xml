@@ -33,7 +33,12 @@
     <option name="USE_IDEA_PROXY_SETTINGS" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="" />
+    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="Update to Kotlin 1.5.30-RC">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +64,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-mpp-basic" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -92,97 +102,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/gradle.properties" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/build.gradle.kts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/macos1Main/kotlin/sample/Macos1.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/commonTest/kotlin/sample/CommonTest.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/build.gradle.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradle.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KonanWorkspace">
     <executables />
   </component>
-  <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-x86_64-1.5.30-RC-238">
+  <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-x86_64-1.5.30">
     <allAvailableExecutables>
-      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux1" file="build/bin/linux1/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
       <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
         <variants>
           <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux2" file="build/bin/linux2/e2DebugExecutable/e2.kexe">
@@ -191,6 +123,20 @@
             </params>
           </variant>
           <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux2" file="build/bin/linux2/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="mingw_x64" targetName="win1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableWin1" file="build/bin/win1/e2DebugExecutable/e2.exe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableWin1" file="build/bin/win1/e2ReleaseExecutable/e2.exe">
             <params workingDirectory="$PROJECT_DIR$" programParameters="">
               <environmentVariables />
             </params>
@@ -225,15 +171,79 @@
           </variant>
         </variants>
       </executable>
-      <executable target="mingw_x64" targetName="win1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+      <executable target="linux_x64" targetName="linux1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableWin1" file="build/bin/win1/e2DebugExecutable/e2.exe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+          <variant name="Debug" gradleTask=":linkDebugTestLinux1" file="build/bin/linux1/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
           </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableWin1" file="build/bin/win1/e2ReleaseExecutable/e2.exe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
           </variant>
@@ -272,6 +282,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -285,7 +296,6 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.13128492" />
     <property name="project.structure.side.proportion" value="0.32408103" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -314,6 +324,154 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Repos.my-examples.my-mpp-basic.linux2Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
     </configuration>
     <configuration name="Other" type="GradleKonanAppRunConfiguration" factoryName="BinaryRunConfigurationFactory_GradleKonanAppRunConfiguration" directory="$PROJECT_DIR$" passPaternalEnvs="true" parameters="Peter John James">
       <environmentVariables Latitude="31.779402" Longitude="35.240197" />
@@ -579,76 +737,26 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Common Tests" type="KonanMobileTest" factoryName="KonanMobileTest" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
-      <module name="my-mpp-basic.commonTest" />
-      <devices>
-        <device display-name="Pixel 3a API 30 x86 | Android 30" />
-      </devices>
-      <method v="2">
-        <option name="MobileBuild" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="iOS Tests [my-mpp-basic.linux1Test]" type="KonanMobileTest" factoryName="KonanMobileTest" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
-      <module name="my-mpp-basic.linux1Test" />
-      <devices>
-        <device display-name="iPhone 11 | iOS 14.4" />
-      </devices>
-      <method v="2">
-        <option name="MobileBuild" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="iOS Tests [my-mpp-basic.linux2Test]" type="KonanMobileTest" factoryName="KonanMobileTest" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
-      <module name="my-mpp-basic.linux2Test" />
-      <devices>
-        <device display-name="iPhone 11 | iOS 14.4" />
-      </devices>
-      <method v="2">
-        <option name="MobileBuild" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="iOS Tests [my-mpp-basic.macos1Test]" type="KonanMobileTest" factoryName="KonanMobileTest" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
-      <module name="my-mpp-basic.macos1Test" />
-      <devices>
-        <device display-name="iPhone 11 | iOS 14.4" />
-      </devices>
-      <method v="2">
-        <option name="MobileBuild" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="iOS Tests [my-mpp-basic.win1Test]" type="KonanMobileTest" factoryName="KonanMobileTest" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
-      <module name="my-mpp-basic.win1Test" />
-      <devices>
-        <device display-name="iPhone 11 | iOS 14.4" />
-      </devices>
-      <method v="2">
-        <option name="MobileBuild" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Gradle.Macos1Test" />
       <item itemvalue="Gradle.JvmTest.testHello" />
       <item itemvalue="Gradle.JvmTest" />
       <item itemvalue="Kotlin/Native Application.Other" />
-      <item itemvalue="Kotlin/Native Application.e1[linux1]" />
       <item itemvalue="Kotlin/Native Application.e2[linux1]" />
+      <item itemvalue="Kotlin/Native Application.e1[linux1]" />
       <item itemvalue="Kotlin/Native Application.e2[linux2]" />
       <item itemvalue="Kotlin/Native Application.e1[linux2]" />
-      <item itemvalue="Kotlin/Native Application.e1[macos1]" />
       <item itemvalue="Kotlin/Native Application.e2[macos1]" />
+      <item itemvalue="Kotlin/Native Application.e1[macos1]" />
       <item itemvalue="Kotlin/Native Application.e2[win1]" />
       <item itemvalue="Kotlin/Native Application.e1[win1]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Macos1Test" />
-        <item itemvalue="Gradle.JvmTest" />
-        <item itemvalue="Gradle.JvmTest" />
         <item itemvalue="Gradle.JvmTest.testHello" />
+        <item itemvalue="Gradle.JvmTest" />
+        <item itemvalue="Gradle.JvmTest" />
         <item itemvalue="Gradle.Macos1Test" />
       </list>
     </recent_temporary>
@@ -1157,6 +1265,58 @@
       <workItem from="1625135720097" duration="67000" />
       <workItem from="1627477235942" duration="1498000" />
       <workItem from="1627650512371" duration="339000" />
+      <workItem from="1628193543333" duration="25000" />
+      <workItem from="1628193742467" duration="48000" />
+      <workItem from="1628193848073" duration="19000" />
+      <workItem from="1628194208996" duration="31000" />
+      <workItem from="1628195736770" duration="11000" />
+      <workItem from="1628196348514" duration="532000" />
+      <workItem from="1628242869078" duration="72000" />
+      <workItem from="1628243434604" duration="137000" />
+      <workItem from="1628276025473" duration="610000" />
+      <workItem from="1628279483567" duration="452000" />
+      <workItem from="1628281641820" duration="314000" />
+      <workItem from="1628504477805" duration="434000" />
+      <workItem from="1628758482488" duration="413000" />
+      <workItem from="1628759691181" duration="626000" />
+      <workItem from="1629465129595" duration="118000" />
+      <workItem from="1629472934407" duration="90000" />
+      <workItem from="1629475620589" duration="235000" />
+      <workItem from="1629476284178" duration="539000" />
+      <workItem from="1629487198273" duration="1058000" />
+      <workItem from="1629707839251" duration="316000" />
+      <workItem from="1629712622001" duration="219000" />
+      <workItem from="1629713108007" duration="1824000" />
+      <workItem from="1629716250667" duration="292000" />
+      <workItem from="1631301987221" duration="190000" />
+      <workItem from="1631302283651" duration="282000" />
+      <workItem from="1631302682943" duration="22000" />
+      <workItem from="1631302870015" duration="21000" />
+      <workItem from="1631303005063" duration="30000" />
+      <workItem from="1631303406034" duration="32000" />
+      <workItem from="1631303487991" duration="112000" />
+      <workItem from="1631304296019" duration="266000" />
+      <workItem from="1631304669710" duration="122000" />
+      <workItem from="1631304995321" duration="22000" />
+      <workItem from="1631305355928" duration="154000" />
+      <workItem from="1631305671139" duration="262000" />
+      <workItem from="1631306066197" duration="1317000" />
+      <workItem from="1631307894022" duration="233000" />
+      <workItem from="1631308320115" duration="8000" />
+      <workItem from="1631524596523" duration="947000" />
+      <workItem from="1631525999322" duration="11000" />
+      <workItem from="1631526505383" duration="13000" />
+      <workItem from="1631526578072" duration="6000" />
+      <workItem from="1631526773362" duration="5000" />
+      <workItem from="1631527016278" duration="6000" />
+      <workItem from="1631527427450" duration="8000" />
+      <workItem from="1631527671642" duration="606000" />
+      <workItem from="1631528843667" duration="279000" />
+      <workItem from="1631529654351" duration="6000" />
+      <workItem from="1631529949029" duration="6000" />
+      <workItem from="1631530422191" duration="20000" />
+      <workItem from="1631531226667" duration="1142000" />
+      <workItem from="1631651830997" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Advance versions">
       <created>1603450960811</created>
@@ -1217,18 +1377,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
-          <line>13</line>
+          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
-          <line>8</line>
+          <line>28</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
