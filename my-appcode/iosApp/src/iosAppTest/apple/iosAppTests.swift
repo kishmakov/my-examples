@@ -1,5 +1,6 @@
 import XCTest
 @testable import iosApp
+import shared
 
 class iosAppTests: XCTestCase {
 
@@ -12,6 +13,8 @@ class iosAppTests: XCTestCase {
     }
 
     func testExample() {
+        let text = Greeting().greeting()
+        XCTAssert(text.contains("iOS"), "Bad greeting")
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
