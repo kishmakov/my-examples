@@ -12,9 +12,14 @@ repositories {
 kotlin {
     android()
     ios {
+//        binaries.removeIf { it.baseName == "test" }
         binaries {
             framework {
                 baseName = "shared"
+            }
+
+            test("unit") {
+                baseName = "unit"
             }
         }
     }

@@ -7,6 +7,7 @@ class IosGreetingTest {
 
     @Test
     fun testExample() {
+        println(">>> IosGreetingTest")
         assertTrue(Greeting().greeting().contains("iOS"), "Check iOS is mentioned")
     }
 }

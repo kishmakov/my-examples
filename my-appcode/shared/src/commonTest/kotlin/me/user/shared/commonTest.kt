@@ -6,6 +6,7 @@ import kotlin.test.assertTrue
 class CommonTest {
     @Test
     fun testMe() {
+        println(">>> CommonTest")
         assertTrue(Greeting().greeting().isNotEmpty())
     }
 }
@@ -13,6 +14,7 @@ class CommonTest {
 class AnotherCommonTest {
     @Test
     fun testMe() {
+        println(">>> AnotherCommonTest")
         assertTrue(Greeting().greeting().isNotEmpty())
     }
 }
