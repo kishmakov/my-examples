@@ -29,15 +29,21 @@
   </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="kirill.shmakov" />
-    <option name="SERVER_URL" value="http://buildserver.labs.intellij.net" />
+    <option name="SERVER_URL" value="https://buildserver.labs.intellij.net" />
     <option name="USE_IDEA_PROXY_SETTINGS" value="false" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="Update to Kotlin 1.5.30-RC">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_mpp_basic_jvm.xml" afterDir="false" />
+    <list default="true" id="94757881-b579-46b7-bde9-8f15243f3007" name="Default Changelist" comment="Update to Kotlin 1.5.30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +121,117 @@
   </component>
   <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-x86_64-1.5.30">
     <allAvailableExecutables>
+      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="mingw_x64" targetName="win1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableWin1" file="build/bin/win1/e1DebugExecutable/e1.exe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableWin1" file="build/bin/win1/e1ReleaseExecutable/e1.exe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestLinux1" file="build/bin/linux1/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="macos_x64" targetName="macos1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE2DebugExecutableMacos1" file="build/bin/macos1/e2DebugExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE2ReleaseExecutableMacos1" file="build/bin/macos1/e2ReleaseExecutable/e2.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
+              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="linux_x64" targetName="linux2" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
+        <variants>
+          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux2" file="build/bin/linux2/e1DebugExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux2" file="build/bin/linux2/e1ReleaseExecutable/e1.kexe">
+            <params workingDirectory="$PROJECT_DIR$" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
       <executable target="linux_x64" targetName="linux2" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
         <variants>
           <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux2" file="build/bin/linux2/e2DebugExecutable/e2.kexe">
@@ -143,121 +260,10 @@
           </variant>
         </variants>
       </executable>
-      <executable target="linux_x64" targetName="linux2" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux2" file="build/bin/linux2/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux2" file="build/bin/linux2/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableMacos1" file="build/bin/macos1/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableMacos1" file="build/bin/macos1/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux1" file="build/bin/linux1/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="macos1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableMacos1" file="build/bin/macos1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableMacos1" file="build/bin/macos1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="mingw_x64" targetName="win1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestWin1" file="build/bin/win1/debugTest/test.exe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux2" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestLinux2" file="build/bin/linux2/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e2" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE2DebugExecutableLinux1" file="build/bin/linux1/e2DebugExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE2ReleaseExecutableLinux1" file="build/bin/linux1/e2ReleaseExecutable/e2.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="linux_x64" targetName="linux1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableLinux1" file="build/bin/linux1/e1DebugExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableLinux1" file="build/bin/linux1/e1ReleaseExecutable/e1.kexe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="Peter John James">
-              <environmentVariables Latitude="31.779402" Longitude="35.240197" />
-            </params>
-          </variant>
-        </variants>
-      </executable>
       <executable target="macos_x64" targetName="macos1" execName="test" projectPrefix="my-mpp-basic:" isTest="true">
         <variants>
           <variant name="Debug" gradleTask=":linkDebugTestMacos1" file="build/bin/macos1/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="mingw_x64" targetName="win1" execName="e1" projectPrefix="my-mpp-basic:" isTest="false">
-        <variants>
-          <variant name="Debug" gradleTask=":linkE1DebugExecutableWin1" file="build/bin/win1/e1DebugExecutable/e1.exe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-          <variant name="Release" gradleTask=":linkE1ReleaseExecutableWin1" file="build/bin/win1/e1ReleaseExecutable/e1.exe">
-            <params workingDirectory="$PROJECT_DIR$" programParameters="">
               <environmentVariables />
             </params>
           </variant>
@@ -754,8 +760,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Macos1Test" />
-        <item itemvalue="Gradle.JvmTest.testHello" />
         <item itemvalue="Gradle.JvmTest" />
+        <item itemvalue="Gradle.JvmTest.testHello" />
         <item itemvalue="Gradle.JvmTest" />
         <item itemvalue="Gradle.Macos1Test" />
       </list>
@@ -1316,7 +1322,11 @@
       <workItem from="1631529949029" duration="6000" />
       <workItem from="1631530422191" duration="20000" />
       <workItem from="1631531226667" duration="1142000" />
-      <workItem from="1631651830997" duration="22000" />
+      <workItem from="1631651830997" duration="5884000" />
+      <workItem from="1631710827630" duration="3704000" />
+      <workItem from="1633110000804" duration="347000" />
+      <workItem from="1633112127053" duration="861000" />
+      <workItem from="1633612438577" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="Advance versions">
       <created>1603450960811</created>
@@ -1346,7 +1356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627650612766</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update to Kotlin 1.5.30">
+      <created>1631651883213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631651883214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1370,20 +1387,21 @@
     <MESSAGE value="Enrich tests for debugging testing" />
     <MESSAGE value="Update versions" />
     <MESSAGE value="Update to Kotlin 1.5.30-RC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to Kotlin 1.5.30-RC" />
+    <MESSAGE value="Update to Kotlin 1.5.30" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to Kotlin 1.5.30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/macos1Test/kotlin/sample/Macos1Test.kt</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/jvmTest/kotlin/sample/JvmTest.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
