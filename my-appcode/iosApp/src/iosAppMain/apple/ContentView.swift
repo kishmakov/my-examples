@@ -32,6 +32,9 @@ class Postfix {
             }
         }
 
+        let mn = MyNumber(number: 12)
+        print(mn!.representation!)
+
         var threeDoubles = Array(repeating: 0.0, count: 3)
 
         do {
@@ -41,7 +44,6 @@ class Postfix {
         } catch {
             return "Unhandled exception"
         }
-
 
         return "\(N)"
     }

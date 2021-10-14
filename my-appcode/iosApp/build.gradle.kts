@@ -9,6 +9,7 @@ apple {
 
         sceneDelegateClass = "SceneDelegate"
         launchStoryboard = "LaunchScreen"
+        bridgingHeader = "iosApp-Bridging-Header.h"
 
         buildSettings.DEVELOPMENT_TEAM("9C3UR9CG82")
 
