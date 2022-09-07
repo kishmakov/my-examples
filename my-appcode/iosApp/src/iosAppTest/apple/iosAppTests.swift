@@ -15,6 +15,9 @@ class iosAppTests: XCTestCase {
     func testExample() {
         let text = Greeting().greeting()
         XCTAssert(text.contains("iOS"), "Bad greeting")
+//        XCTAssertEqual(text, "239", "Bad text")
+        assert(text.isEqual("239"), "Bad text")
+
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

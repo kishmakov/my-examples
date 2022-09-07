@@ -97,12 +97,37 @@ class Postfix {
 }
 
 struct ContentView: View {
-
     var body: some View {
         let postfix = Postfix()
         let postfixMessage: String? = postfix.message()
 
+        let msg = trivialExample()
+
         Text(greet() + " <-> " + postfixMessage.unsafelyUnwrapped)
+    }
+
+    func trivialExample() -> String {
+        var dateNow = Date.now
+
+        var d1: Date?
+        d1 = nil
+
+        var d2: Date?
+        d2  = Date.now
+
+        var d3: Date?
+        d3 = Date.now
+
+        var d4: Date?
+        d4 = nil
+
+        var d5: Date?
+        d5 = Date.now
+
+        var d6: Date?
+        d6  = Date.now
+
+        return "Hey \(d1) \(d2) \(d3) \(d4) \(d5) \(d6)"
     }
 }
 

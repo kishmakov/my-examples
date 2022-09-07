@@ -9,7 +9,7 @@ expect object Platform {
 }
 
 fun checkNames(names: Array<String>) {
-    if (names.isNotEmpty()) {
+    if (names.isEmpty()) {
         throw Error("Jude")
     }
 }

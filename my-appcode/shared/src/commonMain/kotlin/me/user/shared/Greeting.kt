@@ -12,11 +12,11 @@ class Greeting {
 
         val pl = Platform()
 
-        message = "Hello, ${pl.platform}!"
+//        message = "Hello, ${pl.platform}!"
 
-        println(">1>  ${pl.platform}")
-        pl.platform = platform
-        println(">2>  ${pl.platform}")
+//        println(">1>  ${pl.platform}")
+            pl.platform = platform
+//        println(">2>  ${pl.platform}")
 
         try {
             computeN()
