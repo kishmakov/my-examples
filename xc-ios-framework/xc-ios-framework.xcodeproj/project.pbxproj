@@ -10,7 +10,7 @@
 		F3E28B1E28D139F90065EE01 /* xc_ios_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E28B1528D139F90065EE01 /* xc_ios_framework.framework */; };
 		F3E28B2328D139F90065EE01 /* xc_ios_frameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E28B2228D139F90065EE01 /* xc_ios_frameworkTests.m */; };
 		F3E28B2428D139F90065EE01 /* xc_ios_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E28B1828D139F90065EE01 /* xc_ios_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3E28B2E28D13A240065EE01 /* math.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E28B2D28D13A240065EE01 /* math.h */; };
+		F3E28B2E28D13A240065EE01 /* math.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E28B2D28D13A240065EE01 /* math.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3E28B3028D13A630065EE01 /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = F3E28B2F28D13A630065EE01 /* math.c */; };
 /* End PBXBuildFile section */
 
