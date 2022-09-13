@@ -1,0 +1,13 @@
+Uncaught Kotlin exception: kotlin.IllegalStateException: unsupported call of reified inlined function `baz`
+    at 0   program.kexe                        0x105d22d98        kfun:kotlin.Throwable#<init>(kotlin.String?){} + 88 (/Users/ppunegov/ws/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Throwable.kt:24:37)
+    at 1   program.kexe                        0x105d1dbf6        kfun:kotlin.Exception#<init>(kotlin.String?){} + 86 (/Users/ppunegov/ws/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Exceptions.kt:23:44)
+    at 2   program.kexe                        0x105d1dce6        kfun:kotlin.RuntimeException#<init>(kotlin.String?){} + 86 (/Users/ppunegov/ws/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Exceptions.kt:34:44)
+    at 3   program.kexe                        0x105d1e0a6        kfun:kotlin.IllegalStateException#<init>(kotlin.String?){} + 86 (/Users/ppunegov/ws/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/Exceptions.kt:70:44)
+    at 4   program.kexe                        0x105d3a172        ThrowIllegalStateExceptionWithMessage + 162 (/Users/ppunegov/ws/kotlin/kotlin-native/runtime/src/main/kotlin/kotlin/native/internal/RuntimeUtils.kt:89:11)
+    at 5   program.kexe                        0x105d6726d        kfun:#baz(0:0){0§<kotlin.Any?>}kotlin.String + 45 
+    at 6   program.kexe                        0x105d674df        kfun:$baz$FUNCTION_REFERENCE$0.invoke#internal + 159 (/Users/ppunegov/ws/kotlin/./exception.kt:4:30)
+    at 7   program.kexe                        0x105d67330        kfun:#test(){}kotlin.String + 192 (/Users/ppunegov/ws/kotlin/./exception.kt:5:12)
+    at 8   program.kexe                        0x105d6740b        kfun:#main(){} + 91 (/Users/ppunegov/ws/kotlin/./exception.kt:9:13)
+    at 9   program.kexe                        0x105d676c4        Konan_start + 132 (/Users/ppunegov/ws/kotlin/./exception.kt:8:1)
+    at 10  program.kexe                        0x105d8e8ed        Init_and_run_start + 93 
+    at 11  libdyld.dylib                       0x7fff20379f3c     start + 0 
