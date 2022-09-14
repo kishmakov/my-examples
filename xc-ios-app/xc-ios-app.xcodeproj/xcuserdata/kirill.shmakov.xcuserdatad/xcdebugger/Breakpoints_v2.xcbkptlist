@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "853BEFC3-BF2D-465A-9C0C-367CA5BD5847"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E30FA71D-CBB7-4D31-A7C8-BEDA6B88813F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xc-ios-app/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E30FA71D-CBB7-4D31-A7C8-BEDA6B88813F - 7bffaf072ef4d189"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in xc_ios_app.ContentView.body.getter : some"
+                  moduleName = "xc-ios-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill.shmakov/Repos/my-examples/xc-ios-app/xc-ios-app/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1059">
+               </Location>
+               <Location
+                  uuid = "E30FA71D-CBB7-4D31-A7C8-BEDA6B88813F - 7bffaf072ef4d189"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in xc_ios_app.ContentView.body.getter : some"
+                  moduleName = "xc-ios-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kirill.shmakov/Repos/my-examples/xc-ios-app/xc-ios-app/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1197">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
