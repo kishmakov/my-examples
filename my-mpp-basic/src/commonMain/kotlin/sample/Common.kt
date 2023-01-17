@@ -1,5 +1,15 @@
 package sample
 
+//abstract class AClass() {
+//    abstract fun getName(): String
+//}
+//
+//class RClass: AClass() {
+//    override fun getName(): String {
+//        TODO("Not yet implemented")
+//    }
+//}
+
 expect class Common() {
     fun getCode(): Int
 }

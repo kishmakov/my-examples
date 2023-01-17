@@ -21,12 +21,6 @@ actual fun currentLocation(): String {
 fun main1(args: Array<String>) {
     println(question("Will no one stay awake for me", args))
     println("Location: " + currentLocation())
-
-//    val file = fopen("aba.txt", "w")
-//    for (arg in args) {
-//        fputs(">>> $arg\n", file)
-//    }
-//    fclose(file)
 }
 
 fun main2(args: Array<String>) {
